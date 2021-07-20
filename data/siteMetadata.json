@@ -1,0 +1,16 @@
+{
+  "title": "Kirill So - Personal Blog and Website",
+  "author": "Kirill So",
+  "headerTitle": "Kirill So",
+  "description": "Personal Blog and Website",
+  "language": "en-us",
+  "siteUrl": "https://www.kirillso.com",
+  "siteRepo": "https://github.com/sokirill/sokirill.com",
+  "image": "/static/img/avatar.jpeg",
+  "socialBanner": "/static/img/twitter-card.png",
+  "email": "kirill@kirillso.com",
+  "github": "https://github.com/sokirill",
+  "twitter": "https://twitter.com/sokirill",
+  "linkedin": "https://www.linkedin.com/in/sokirill",
+  "locale": "en-US"
+}
