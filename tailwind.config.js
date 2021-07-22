@@ -35,8 +35,8 @@ module.exports = {
         DEFAULT: {
           css: {
             color: theme('colors.gray.700'),
-            fontSize: '1.25rem', // Tailwind XL
-            lineHeight: '1.75rem', // Tailwind XL
+            fontSize: '1.125rem', // Tailwind LG
+            lineHeight: '1.75rem', // Tailwind LG
             letterSpacing: 'letterSpacing.normal',
             fontWeight: '400', // Tailwind normal,
             a: {
@@ -49,29 +49,33 @@ module.exports = {
             h1: {
               fontWeight: '900', // TailwindTaiwlind black
               fontFamily: 'Lora',
-              fontSize: '3rem', // Taiwlind 5XL
-              lineHeight: '1', // Tailwind 5XL
+              fontSize: '2.25rem', // Taiwlind 4XL
+              lineHeight: '2.5rem', // Tailwind 4XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.900'),
             },
             h2: {
               fontWeight: '800',
               fontFamily: 'Lora',
-              fontSize: '2.25rem', // Taiwlind 4XL
-              lineHeight: '2.5rem', // Tailwind 4XL
+              fontSize: '1.875rem', // Taiwlind 3XL
+              lineHeight: '2.25rem', // Tailwind 3XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.900'),
             },
             h3: {
               fontWeight: '700',
               fontFamily: 'Lora',
-              fontSize: '1.875rem', // Taiwlind 3XL
-              lineHeight: '2.25rem', // Tailwind 3XL
+              fontSize: '1.5rem', // Taiwlind 2XL
+              lineHeight: '2rem', // Tailwind 2XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.900'),
             },
             'h4,h5,h6': {
-              color: theme('colors.gray.900'),
+              fontFamily: 'Lora',
+              fontSize: '1.25rem', // Taiwlind  XL
+              lineHeight: '1.75rem', // Tailwind  XL
+              letterSpacing: theme('letterSpacing.normal'),
+              color: theme('colors.gray.900'), // Tailwind XL
             },
             code: {
               color: theme('colors.pink.500'),
@@ -105,7 +109,7 @@ module.exports = {
         },
         dark: {
           css: {
-            color: theme('colors.gray.200'),
+            color: theme('colors.gray.300'),
             fontFamily: 'Poppins',
             fontSize: '1.25rem', // Tailwind XL
             lineHeight: '1.75rem', // Tailwind XL

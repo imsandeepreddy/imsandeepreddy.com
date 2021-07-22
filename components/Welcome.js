@@ -14,7 +14,7 @@ export default function Welcome() {
             width={250}
             className="rounded-full"
           />
-          <div className="flex pt-6 space-x-3 prose dark:prose-dark">
+          <div className="flex pt-6 space-x-3 hover:text-primary-600 dark:hover:text-primary-400">
             <Icon kind="twitter" href={siteMetadata.twitter} />
             <Icon kind="linkedin" href={siteMetadata.linkedin} />
             <Icon kind="github" href={siteMetadata.github} />
