@@ -15,14 +15,16 @@ export default function Tags({ tags }) {
   const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a])
   return (
     <>
-      <PageSeo title={`Tags - ${siteMetadata.author}`} description="Things I blog about" />
-      <div className="flex flex-col items-start justify-start divide-y divide-gray-200 dark:divide-gray-700 md:justify-center md:items-center md:divide-y-0 md:flex-row md:space-x-6 md:mt-24">
-        <div className="pt-6 pb-8 space-x-2 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 md:border-r-2 md:px-6">
-            Tags
-          </h1>
+      <PageSeo
+        title={`Tags - ${siteMetadata.author}`}
+        description="Blog post topics and categories"
+      />
+      <div className="divide-y divide-gray-300">
+        <div className="prose dark:prose-dark text-center pt-6 pb-8 space-y-2 md:space-y-5">
+          <h1>Tags</h1>
+          <p>A collection of topic and categoory tags to sort blog posts</p>
         </div>
-        <div className="flex flex-wrap max-w-lg">
+        <div className="flex flex-wrap">
           {Object.keys(tags).length === 0 && 'No tags found.'}
           {sortedTags.map((t) => {
             return (

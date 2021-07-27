@@ -12,19 +12,19 @@ export default function AuthorLayout({ children, frontMatter }) {
         <div className="prose dark:prose-dark pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-center">About</h1>
         </div>
-        <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
+        <div className="items-start prose dark:prose-dark space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="flex flex-col items-center pt-8 space-x-2">
             <Image
               src={avatar}
               alt="avatar"
-              width="192px"
-              height="192px"
+              width="200px"
+              height="200px"
               className="w-30 h-30 rounded-full"
             />
-            <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
-            <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
-            <div className="text-gray-500 dark:text-gray-400">{company}</div>
-            <div className="flex pt-6 space-x-3">
+            <h3>{name}</h3>
+            <div>{occupation}</div>
+            <div>{company}</div>
+            <div className="flex pt-2 space-x-3">
               <Icon kind="github" href={github} />
               <Icon kind="linkedin" href={linkedin} />
               <Icon kind="twitter" href={twitter} />

@@ -1,6 +1,7 @@
 import siteMetadata from '@/data/siteMetadata'
 import Icon from '@/components/icons'
 import Image from 'next/image'
+import { annotate } from 'rough-notation'
 
 export default function Welcome() {
   return (
@@ -22,11 +23,11 @@ export default function Welcome() {
         </div>
         <div className="prose dark:prose-dark pt-8 pb-8 max-w-none xl:col-span-2">
           <h1>Hey, I am Kirill</h1>
-          <p>I'm a product manager, writer and aspiring polymath based in Singapore.</p>
+          <p>I'm a product executive, writer and aspiring polymath based in Singapore.</p>
           <p>
-            I enjoy helping people succeed in their life and career via examined life and critical
-            thinking. I do that by coaching and sharing my insights on this blog, newsletter and
-            Twitter.
+            Currently I am working on a critical-thinking guide and tinkering with SaaS projects
+            whilst learning Next.js, Tailwind and Prisma. I also share articles on emerging
+            technology and future of work.
           </p>
         </div>
       </div>

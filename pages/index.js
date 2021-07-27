@@ -6,6 +6,8 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Welcome from '@/components/Welcome'
 import Subscribe from '@/components/Subscribe'
+import Work from '@/components/Work'
+import Clients from '@/components/Clients'
 
 const MAX_DISPLAY = 3
 
@@ -20,9 +22,11 @@ export default function Home({ posts }) {
     <>
       <PageSeo title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="prose dark:prose-dark pt-6 pb-8 space-y-2 md:space-y-5">
+        <div className="prose dark:prose-dark pt-6 pb-6 space-y-2 md:space-y-5">
           <Welcome />
           <Subscribe />
+          <Work />
+          <Clients />
           <h1 className="text-center ">Blog</h1>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -57,11 +61,11 @@ export default function Home({ posts }) {
                             ))}
                           </div>
                         </div>
-                        <div className="text-xl text-gray-700 dark:text-gray-200 max-w-none">
+                        <div className="text-lg text-gray-600 dark:text-gray-300 max-w-none">
                           {summary}
                         </div>
                       </div>
-                      <div className="text-lg uppercase font-medium leading-7">
+                      <div className="text-base uppercase font-medium leading-7">
                         <Link
                           href={`/blog/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
