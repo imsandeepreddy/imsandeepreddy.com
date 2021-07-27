@@ -11,7 +11,7 @@ export default function Footer() {
           <Icon kind="linkedin" href={siteMetadata.linkedin} />
           <Icon kind="twitter" href={siteMetadata.twitter} />
         </div>
-        <div className="text-base text-gray-700 dark:text-gray-200 flex mb-2 space-x-2 text-sm">
+        <div className="text-lg text-gray-700 dark:text-gray-200 flex mb-2 space-x-2">
           <div>{siteMetadata.author}</div>
           <div>{` • `}</div>
           <div>{`© ${new Date().getFullYear()}`}</div>
@@ -20,7 +20,7 @@ export default function Footer() {
             <p>Personal Website</p>
           </div>
         </div>
-        <div className="text-base text-gray-700 dark:text-gray-200 mb-8">
+        <div className="text-lg text-gray-700 dark:text-gray-200 mb-8">
           <p>Made with Next.js, Tailwind and hosted on Vercel</p>
         </div>
       </div>
