@@ -1,4 +1,3 @@
-import siteMetadata from '@/data/siteMetadata'
 import Image from 'next/image'
 
 export default function Work() {
@@ -45,9 +44,18 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div>
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/carousell.svg"
+            alt="grab"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="hidden dark:block">
+          <Image
+            src="/static/img/work/carousell-dark.svg"
             alt="grab"
             height={100}
             width={300}
@@ -64,7 +72,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div>
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/amazon.svg"
             alt="grab"
@@ -73,9 +81,27 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div>
+        <div className="hidden dark:block">
+          <Image
+            src="/static/img/work/amazon-dark.svg"
+            alt="grab"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/cbs.svg"
+            alt="grab"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="hidden dark:block">
+          <Image
+            src="/static/img/work/cbs-dark.svg"
             alt="grab"
             height={100}
             width={300}
@@ -91,9 +117,18 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div>
+        <div className="dark: hidden">
           <Image
             src="/static/img/work/rocket-internet.svg"
+            alt="grab"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="hidden dark:block">
+          <Image
+            src="/static/img/work/rocket-internet-dark.svg"
             alt="grab"
             height={100}
             width={300}
@@ -127,7 +162,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div>
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/moonton.svg"
             alt="grab"
@@ -136,7 +171,16 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div>
+        <div className="hidden dark:block">
+          <Image
+            src="/static/img/work/moonton-dark.svg"
+            alt="grab"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/nexon.svg"
             alt="grab"
@@ -145,9 +189,27 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div>
+        <div className="hidden dark:block">
+          <Image
+            src="/static/img/work/nexon-dark.svg"
+            alt="grab"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/global-fashion-group.svg"
+            alt="grab"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="hidden dark:block">
+          <Image
+            src="/static/img/work/global-fashion-group-dark.svg"
             alt="grab"
             height={100}
             width={300}

@@ -70,10 +70,9 @@ export default function Subscribe() {
           <SuccessMessage>{form.message}</SuccessMessage>
         ) : (
           <p className="text-lg text-center font-sans text-gray-600 dark:text-gray-300">
-            {`${subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'} subscribers`}
-            {/* <Link href="/newsletter">
-              <a>30 issues</a>
-            </Link> */}
+            {`${subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'} subscribers - `}
+
+            <a>2 issues</a>
           </p>
         )}
       </div>
