@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import Link from 'next/link'
 import useSWR from 'swr'
 import fetcher from '@/lib/fetcher'
 import SuccessMessage from '@/components/SuccessMessage'
@@ -70,7 +71,7 @@ export default function Subscribe() {
           <SuccessMessage>{form.message}</SuccessMessage>
         ) : (
           <p className="text-lg text-center font-sans text-gray-600 dark:text-gray-300">
-            {`${subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'} subscribers - `}
+            {`${subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'} subscribers – `}
 
             <a>2 issues</a>
           </p>
