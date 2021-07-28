@@ -117,7 +117,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="dark: hidden">
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/rocket-internet.svg"
             alt="grab"
