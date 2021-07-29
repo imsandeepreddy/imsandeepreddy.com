@@ -1,5 +1,3 @@
-import Icon from '@/components/icons'
-
 export default function Work() {
   return (
     <>
@@ -7,30 +5,30 @@ export default function Work() {
         <div>
           <h1 className="text-center ">Things I do</h1>
         </div>
-        <div className=" grid gap-8 md:grid-cols-2 lg:grid-cols-3 text-center">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 text-center">
           <div>
             <h3>Discovery</h3>
-            <p>Create and validate product hypothesis + potential affinity</p>
+            <p>Validation of product hypothesis and affinity testing</p>
           </div>
           <div>
             <h3>Product</h3>
-            <p>Plan, orchestrate and execute product strategy and delivery</p>
+            <p>Planning, orchestration and execution of product strategy</p>
           </div>
           <div>
             <h3>Growth</h3>
-            <p>Acquire, activate, retain and increase LTV of customers</p>
+            <p>Acquisition, activation, retention and LTV boost of customers</p>
           </div>
           <div>
             <h3>Go-to-market</h3>
-            <p>Blueprinting product launch to target customers and geos</p>
+            <p>Product launch and extension to target customers and geos</p>
           </div>
           <div>
             <h3>Automation</h3>
-            <p>Integrate workflows and automation of tedious and repeatable tasks</p>
+            <p>Automation of workflows for tedious and repeatable tasks</p>
           </div>
           <div className="">
             <h3>MVP</h3>
-            <p>Build and deploy lean and functional prototypes</p>
+            <p>Creation and deployment lean and functional prototypes</p>
           </div>
         </div>
       </div>
