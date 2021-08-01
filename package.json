@@ -1,6 +1,10 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
+  "name": "kirillso.com",
+  "description": "personal website and blog",
   "version": "0.4.1",
+  "engines": {
+    "node": "16.4.1"
+  },
   "private": true,
   "scripts": {
     "start": "next-remote-watch ./data",

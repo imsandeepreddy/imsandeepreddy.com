@@ -22,25 +22,23 @@ A few milestones from my life:
 
 ![berlin-lake](/static/img/personal/berlin.jpeg)
 
-- Created my own mobile user acquisition agency and reached **$30k in revenue the first month**. It was the first digital nomad experience whilst living and travelling in Thailand.
-- Joined a [**seed stage startup**](https://venturebeat.com/2014/10/03/1-million-seed-funding-led-by-point-nine-capital-investing-in-remerge-was-a-no-brainer-for-us/) in Berlin and went from 0 revenue to one of the industry leaders in mobile advertising. We grew **from 10 people to 160 employees** and I was lucky to firsthand experience **0 to 1 startup scale-up** including market launch in 7 different countries.
+- **_2014_** - Created my own mobile user acquisition agency and reached **$30k in revenue the first month**. It was the first digital nomad experience whilst living and travelling in Thailand.
+- **_2015_** - Joined a [**seed stage startup**](https://venturebeat.com/2014/10/03/1-million-seed-funding-led-by-point-nine-capital-investing-in-remerge-was-a-no-brainer-for-us/) in Berlin and went from 0 revenue to one of the industry leaders in mobile advertising. We grew **from 10 people to 160 employees** and I was lucky to firsthand experience **0 to 1 startup scale-up** including market launch in 7 different countries.
 
-- In early 2016 a group of friends started mining something called ethereum and thanks to a good advice I bought some more to reinvest into ICO craze of 2017. I spent the next year learning about blockchain, cryptocurrencies and launched my first newsletter which aggregated around **300 people in the first few months**.
+- **_2016_** - a group of friends started mining something called ethereum and thanks to a good advice I bought some more to reinvest into ICO craze of 2017. I spent the next year learning about blockchain, cryptocurrencies and launched my first newsletter which aggregated around **300 people in the first few months**.
 
-- Moved to Singapore to work with the the largest marketplace in SEA on a platform utilising blockchain and external data to find bad actors and prevent malicious behavior before it happens. Remember Minority report?
+- **_2018_** - Moved to Singapore to work with the the largest marketplace in SEA on a platform utilising blockchain and external data to find bad actors and prevent malicious behavior before it happens.
 
-![minority-report](/static/img/personal/minority-report.gif)
+![coindesk-conference-singapore](/static/img/personal/singapore-coindesk.jpeg)
 
--
+- **_2020_** - Got accepted into an [early-stage start-up programme](https://www.antler.co/) and worked on a machine learning platform. In the end we decided not to pursue the venture funded route, more on this in the future blog post.
 
-My passion is to never stop learning and exploring. I am a proponent of examined life and never-ending experiments.
+My passion is to neverending search for knowledge and exploration.
 
-This websites serves as my playground for testing and validating ideas, products and thoughts about how the world works.
+This websites serves as my playground for tinkering with ideas, products and thoughts and figuring out how the world works.
 
 ### Now
 
-I am currently exploring investments into profitable SaaS companies, building rapid MVPs and personal knowledge management (tools for thought).
+I am currently exploring investments into profitable SaaS companies, building rapid MVPs and building a second brian via personal knowledge management tools like [Obsidian](https://obsidian.md/).
 
-[My DMs are always opened...](https://www.twitter.com/SoKirill)
-
-or you can always subscribe to the newsletter below.
+[**My DMs are always opened**](https://www.twitter.com/SoKirill), alternatively you can book a call with me or subscibe to my essays.

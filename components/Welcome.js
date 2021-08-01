@@ -23,7 +23,9 @@ export default function Welcome() {
         </div>
         <div className="prose dark:prose-dark pt-8 pb-8 max-w-none xl:col-span-2">
           <h1>Hey, I am Kirill</h1>
-          <p>I'm a product executive, writer and aspiring polymath based in Singapore.</p>
+          <p>
+            I'm a product and growth executive, writer and aspiring polymath based in Singapore.
+          </p>
           <p>
             Currently I am working on a critical-thinking guide and tinkering with SaaS projects
             whilst learning Next.js, Tailwind and Prisma. I also share articles on emerging

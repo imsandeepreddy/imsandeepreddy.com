@@ -43,7 +43,7 @@ export default function Subscribe() {
   }
 
   return (
-    <div className="p-5">
+    <div className="py-5">
       <div className="prose dark:prose-dark border border-primary-200 rounded-lg p-5 w-full dark:border-gray-400 bg-primary-100 dark:bg-primary-900">
         <h3 className="text-center">Subscribe to MetaView</h3>
         <p>An irregular digest that helps you become smarter and better human being.</p>
