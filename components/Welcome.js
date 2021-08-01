@@ -1,7 +1,6 @@
 import siteMetadata from '@/data/siteMetadata'
 import Icon from '@/components/icons'
 import Image from 'next/image'
-import { annotate } from 'rough-notation'
 
 export default function Welcome() {
   return (
