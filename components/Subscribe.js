@@ -59,7 +59,7 @@ export default function Subscribe() {
             className="px-4 py-2 mt-1 text-lg border-none focus:ring-blue-500 focus:border-blue-500 block w-full rounded-md "
           />
           <button
-            className="flex items-center justify-center absolute right-2 top-1 px-6 font-bold h-9 bg-primary-500 hover:bg-primary-600 dark:hover-blue-400 text-gray-100 dark:text-gray-100 rounded-md w-28"
+            className="flex items-center justify-center absolute right-2 top-1 px-6 font-bold h-9 bg-primary-900 text-gray-100 dark:text-gray-100 rounded-md w-28"
             type="submit"
           >
             {form.state === 'loading' ? <LoadingSpinner /> : 'Subscribe'}
@@ -71,9 +71,9 @@ export default function Subscribe() {
           <SuccessMessage>{form.message}</SuccessMessage>
         ) : (
           <p className="text-lg text-center font-sans text-gray-600 dark:text-gray-300">
-            {`${subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'} subscribers – `}
+            {`${subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'} subscribers`}
 
-            <a>2 issues</a>
+            {/* <a>2 issues</a> */}
           </p>
         )}
       </div>
