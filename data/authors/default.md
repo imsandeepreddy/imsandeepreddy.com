@@ -11,22 +11,27 @@ github: https://github.com/sokirill
 
 ![singapore conference](/static/img/personal/conference-singapore.jpeg)
 
-I’m a former go-to-market executive turned product manager, ocasional tinkerer of minimal viable products and life-long learner. Here are a few interesting things I've done:
+I'm a former go-to-market executive, currently operating on the intersection of growth and product. In my free time I tinker with rapid MVPs, design, writing, investments and experimenting with new things.
 
-- Landed my first job in [private equity fund](https://www.enercap.com/) and helped raise **over $200m in debt financing** for renewable energy projects in CEE (solar & wind).
-- Started my first startup in 2012 that copied an ecommerce business model from US hoping for an acquistion. Failed miserably after incorporating and printing business cards but
-- Moved to Berlin during the boom of start-up copycat models and joined a rapidly growing [venture studio](https://ioniq.com/portfolio/) that is now spanning fintech, adtech and healthech portfolio.
+A few milestones from my life:
+
+- **_2010_** - Landed my first job in [**private equity fund**](https://www.enercap.com/) and helped raise **over $200m in debt financing** for renewable energy projects in CEE (solar & wind).
+
+- **_2011_** - Started my first startup in that copied an [**ecommerce business model**](https://thehustle.co/how-one-of-the-worlds-fastest-growing-startups-burned-through-300m/) from US. After incorporation, printing flyers and business cards we still had 0 customers and learned a lot how not to start a company.
+- **_2012_** - Moved to Berlin during the boom of start-up copycat models and joined a growing [**venture studio**](https://ioniq.com/portfolio/) that is now spanning fintech, adtech and healthech portfolio.
 
 ![berlin-lake](/static/img/personal/berlin.jpeg)
 
 - Created my own mobile user acquisition agency and reached **$30k in revenue the first month**. It was the first digital nomad experience whilst living and travelling in Thailand.
-- Joined a [seed stage startup](https://www.remerge.io) in Berlin and went from 0 revenue to one of the industry leaders in mobile advertising. We grew **from 10 people to 160 employees** and I was lucky to firsthand experience **0 to 1 startup scale-up** including market launch in 7 different countries.
+- Joined a [**seed stage startup**](https://venturebeat.com/2014/10/03/1-million-seed-funding-led-by-point-nine-capital-investing-in-remerge-was-a-no-brainer-for-us/) in Berlin and went from 0 revenue to one of the industry leaders in mobile advertising. We grew **from 10 people to 160 employees** and I was lucky to firsthand experience **0 to 1 startup scale-up** including market launch in 7 different countries.
 
-- In early 2016 a group of friends started mining something called ethereum and thanks to a good advice I bought some more to reinvest into ICO craze of 2017. I spent the next year learning about blockchain, cryptocurrencies and launched my first newsletter which aggregated around 300 people in the first few months.
+- In early 2016 a group of friends started mining something called ethereum and thanks to a good advice I bought some more to reinvest into ICO craze of 2017. I spent the next year learning about blockchain, cryptocurrencies and launched my first newsletter which aggregated around **300 people in the first few months**.
 
 - Moved to Singapore to work with the the largest marketplace in SEA on a platform utilising blockchain and external data to find bad actors and prevent malicious behavior before it happens. Remember Minority report?
 
 ![minority-report](/static/img/personal/minority-report.gif)
+
+-
 
 My passion is to never stop learning and exploring. I am a proponent of examined life and never-ending experiments.
 
