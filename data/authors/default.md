@@ -41,4 +41,4 @@ This websites serves as my playground for tinkering with ideas, products and tho
 
 I am currently exploring investments into profitable SaaS companies, building rapid MVPs and building a second brian via personal knowledge management tools like [Obsidian](https://obsidian.md/).
 
-[**My DMs are always opened**](https://www.twitter.com/SoKirill), alternatively you can book a call with me or subscibe to my essays.
+[**My DMs are always opened**](https://www.twitter.com/SoKirill), alternatively you can [book a call](https://calendar.kirillso.com/book) with me or subscibe to my essays.
