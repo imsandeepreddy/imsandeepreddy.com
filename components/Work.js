@@ -28,7 +28,7 @@ export default function Work() {
           </div>
           <div className="">
             <h3>MVP</h3>
-            <p>Creation and deployment lean and functional prototypes</p>
+            <p>Scoping, creation and deployment of lean prototypes</p>
           </div>
         </div>
       </div>

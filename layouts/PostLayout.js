@@ -50,18 +50,21 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </div>
           </header>
 
-          <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
-          <div className="pt-6 pb-6 prose dark:prose-dark">
-            <Link href={discussUrl(slug)} rel="nofollow">
-              {'Discuss on Twitter'}
-            </Link>
+          <div className="py-5 prose dark:prose-dark max-w-none">
+            {children}
+            <div className="text-center">
+              <Link href={discussUrl(slug)} rel="nofollow">
+                {'Discuss on Twitter'}
+              </Link>
+            </div>
           </div>
+
           <footer>
             {(next || prev) && (
               <div className="flex justify-between pt-5 prose dark:prose-dark">
                 {prev && (
                   <div>
-                    <h6>Previous Article</h6>
+                    <h6>Previous post</h6>
                     <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
                       <Link href={`/blog/${prev.slug}`}>{prev.title}</Link>
                     </div>
@@ -69,7 +72,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 )}
                 {next && (
                   <div>
-                    <h6>Next Article</h6>
+                    <h6>Next post</h6>
                     <div className="text-lg text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
                       <Link href={`/blog/${next.slug}`}>{next.title}</Link>
                     </div>
