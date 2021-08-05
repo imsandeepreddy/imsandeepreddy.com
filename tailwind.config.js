@@ -34,7 +34,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.gray.700'),
+            color: theme('colors.gray.800'),
             fontSize: '1.125rem', // Tailwind LG
             lineHeight: '1.75rem', // Tailwind LG
             letterSpacing: 'letterSpacing.normal',
@@ -53,6 +53,8 @@ module.exports = {
               lineHeight: '2.5rem', // Tailwind 4XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.900'),
+              'margin-top': '1',
+              'margin-bottom': '1',
             },
             h2: {
               fontWeight: '800',
@@ -61,6 +63,8 @@ module.exports = {
               lineHeight: '2.25rem', // Tailwind 3XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.900'),
+              'margin-top': '0.5rem',
+              'margin-bottom': '0.5rem',
             },
             h3: {
               fontWeight: '700',
@@ -69,6 +73,8 @@ module.exports = {
               lineHeight: '2rem', // Tailwind 2XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.900'),
+              'margin-top': '0.5rem',
+              'margin-bottom': '0.5rem',
             },
             'h4,h5,h6': {
               fontFamily: 'Lora',
@@ -76,6 +82,8 @@ module.exports = {
               lineHeight: '1.75rem', // Tailwind  XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.900'), // Tailwind XL
+              'margin-top': '0.5rem',
+              'margin-bottom': '0.5rem',
             },
             code: {
               color: theme('colors.pink.500'),
@@ -109,7 +117,7 @@ module.exports = {
         },
         dark: {
           css: {
-            color: theme('colors.gray.300'),
+            color: theme('colors.gray.200'),
             fontSize: '1.125rem', // Tailwind LG
             lineHeight: '1.75rem', // Tailwind LG
             letterSpacing: 'letterSpacing.normal',
@@ -128,6 +136,8 @@ module.exports = {
               lineHeight: '2.5rem', // Tailwind 4XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.100'),
+              'margin-top': '1',
+              'margin-bottom': '1',
             },
             h2: {
               fontWeight: '800',
@@ -136,6 +146,8 @@ module.exports = {
               lineHeight: '2.25rem', // Tailwind 3XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.100'),
+              'margin-top': '0.5rem',
+              'margin-bottom': '0.5rem',
             },
             h3: {
               fontWeight: '700',
@@ -144,6 +156,8 @@ module.exports = {
               lineHeight: '2rem', // Tailwind 2XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.100'),
+              'margin-top': '0.5rem',
+              'margin-bottom': '0.5rem',
             },
             'h4,h5,h6': {
               fontFamily: 'Lora',
@@ -151,6 +165,8 @@ module.exports = {
               lineHeight: '1.75rem', // Tailwind  XL
               letterSpacing: theme('letterSpacing.normal'),
               color: theme('colors.gray.100'),
+              'margin-top': '0.5rem',
+              'margin-bottom': '0.5rem',
             },
             code: {
               backgroundColor: theme('colors.gray.800'),
