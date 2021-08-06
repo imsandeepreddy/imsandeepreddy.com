@@ -1,9 +1,9 @@
 export default function Work() {
   return (
     <>
-      <div className="py-5">
+      <div className="py-6">
         <div>
-          <h1 className="text-center ">Things I do</h1>
+          <h1 className="text-center pb-4">Things I do</h1>
         </div>
         <div className="margin:0 grid gap-10 md:grid-cols-2 lg:grid-cols-3 text-center">
           <div>

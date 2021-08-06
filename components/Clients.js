@@ -3,10 +3,10 @@ import Image from 'next/image'
 export default function Work() {
   return (
     <>
-      <div>
+      <div className="py-6">
         <h1 className="text-center ">Clients I worked with</h1>
       </div>
-      <div className=" pb-5 pt-5 grid gap-10 md:grid-cols-2 lg:grid-cols-4 text-center justify-center">
+      <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 text-center justify-center">
         <div>
           <Image
             src="/static/img/work/skyscanner.svg"

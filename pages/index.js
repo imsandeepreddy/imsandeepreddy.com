@@ -27,7 +27,7 @@ export default function Home({ posts }) {
           <Subscribe />
           <Work />
           <Clients />
-          <h1 className="text-center ">Blog</h1>
+          <h1 className="py-6 text-center ">Blog</h1>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
