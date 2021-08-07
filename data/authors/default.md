@@ -2,8 +2,8 @@
 name: Kirill So
 avatar: /static/img/avatar.jpeg
 occupation: Head of Product
-company:
-email: kirill@kirillso.com
+company: Ringl Technologies
+email: kirill@kirill.digital
 twitter: https://twitter.com/sokirill
 linkedin: https://www.linkedin.com/in/sokirill
 github: https://github.com/sokirill

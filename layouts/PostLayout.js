@@ -24,22 +24,23 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
         {...frontMatter}
       />
       <article>
-        <div className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
-          <header className="pt-6 xl:pb-6">
+        <div className="divide-y divide-gray-200 dark:divide-gray-700">
+          <header className="py-6">
             <div className="space-y-1 text-center">
               <dl className="space-y-10">
                 <div>
                   <dt className="sr-only">Published on</dt>
-                  <dd className="text-lg leading-7 text-gray-600 dark:text-gray-300">
+                  <dd className="text-lg text-gray-600 dark:text-gray-300">
                     <time dateTime={date}>
                       {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
                     </time>
                   </dd>
                 </div>
               </dl>
-              <div className="prose prose:dark-prose">
+              <div>
                 <PageTitle>{title}</PageTitle>
               </div>
+
               {tags && (
                 <div className="tflex flex-wrap">
                   {tags.map((tag) => (
@@ -54,12 +55,47 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             {children}
             <div className="text-center">
               <Link href={discussUrl(slug)} rel="nofollow">
-                {'Discuss on Twitter'}
+                {'Discuss on Twitter 🐦'}
               </Link>
             </div>
           </div>
-
           <footer>
+            <dl className="py-5">
+              <dt className="sr-only">Authors</dt>
+              <dd>
+                <ul>
+                  {authorDetails.map((author) => (
+                    <li className="flex items-center justify-center " key={author.name}>
+                      {author.avatar && (
+                        <Image
+                          src={author.avatar}
+                          width="40px"
+                          height="40px"
+                          alt="avatar"
+                          className="w-10 h-10 rounded-full"
+                        />
+                      )}
+                      <dl className="pl-2 whitespace-nowrap">
+                        <dt className="sr-only">Name</dt>
+                        <dd className="text-gray-900 dark:text-gray-100">{author.name}</dd>
+                        <dt className="sr-only">Twitter</dt>
+                        <dd>
+                          {author.twitter && (
+                            <Link
+                              href={author.twitter}
+                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            >
+                              {author.twitter.replace('https://twitter.com/', '@')}
+                            </Link>
+                          )}
+                        </dd>
+                      </dl>
+                    </li>
+                  ))}
+                </ul>
+              </dd>
+            </dl>
+
             {(next || prev) && (
               <div className="flex justify-between pt-5 prose dark:prose-dark">
                 {prev && (
