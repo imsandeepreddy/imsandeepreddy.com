@@ -12,7 +12,7 @@ export default function AuthorLayout({ children, frontMatter }) {
         <div className="prose dark:prose-dark text-center">
           <h1 className="pt-6 pb-8 space-y-2 md:space-y-5">About</h1>
         </div>
-        <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
+        <div className="items-start space-y-2">
           <div className="sr-only flex flex-col items-center pt-8 space-x-2">
             <Image
               src={avatar}

@@ -8,6 +8,7 @@ import Welcome from '@/components/Welcome'
 import Subscribe from '@/components/Subscribe'
 import Work from '@/components/Work'
 import Clients from '@/components/Clients'
+import { RoughNotation } from 'react-rough-notation'
 
 const MAX_DISPLAY = 3
 
@@ -27,7 +28,19 @@ export default function Home({ posts }) {
           <Subscribe />
           <Work />
           <Clients />
-          <h1 className="py-6 text-center ">Blog</h1>
+          <h1 className="py-6 text-center ">
+            <RoughNotation
+              animate="true"
+              animationDelay="1000"
+              animationDuration="4000"
+              type="circle"
+              color="#0ea4e9"
+              show={true}
+              strokeWidth="3"
+            >
+              Blog
+            </RoughNotation>
+          </h1>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}

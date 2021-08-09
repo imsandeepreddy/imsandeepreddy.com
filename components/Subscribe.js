@@ -1,10 +1,10 @@
 import { useState, useRef } from 'react'
-import Link from 'next/link'
 import useSWR from 'swr'
 import fetcher from '@/lib/fetcher'
 import SuccessMessage from '@/components/SuccessMessage'
 import ErrorMessage from '@/components/ErrorMessage'
 import LoadingSpinner from '@/components/LoadingSpinner'
+import { RoughNotation } from 'react-rough-notation'
 
 export default function Subscribe() {
   const [form, setForm] = useState(false)
@@ -45,7 +45,18 @@ export default function Subscribe() {
   return (
     <div className="py-6 prose dark:prose-dark max-w-full">
       <div className=" border border-primary-200 rounded-lg p-5 bg-primary-100 dark:bg-primary-900">
-        <h2 className="text-center">Subscribe to MetaView</h2>
+        <h2 className="text-center">
+          <RoughNotation
+            animationDelay="3000"
+            animationDuration="4000"
+            type="underline"
+            color="#0ea4e9"
+            strokeWidth="3"
+            show={true}
+          >
+            Subscribe to MetaView
+          </RoughNotation>
+        </h2>
         <p>An irregular digest that helps you become smarter and better human being.</p>
 
         <form className="relative my-4" onSubmit={subscribe}>
