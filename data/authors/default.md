@@ -11,7 +11,7 @@ github: https://github.com/sokirill
 
 ![singapore conference](/static/img/personal/conference-singapore.jpeg)
 
-I'm a former go-to-market executive, currently operating on the intersection of growth and product. In my free time I tinker with rapid MVPs, design, write, investments and experimenting with new things.
+I'm a former go-to-market executive, currently operating on the intersection of growth and product. In my free time I tinker with rapid MVPs, design, writing, researching, investments and experimenting with new things.
 
 A few milestones from my life:
 
