@@ -2,7 +2,7 @@
 title: 'Google Search Clone'
 date: '2021-05-14'
 tags: ['project', 'nextjs', 'tailwind', 'API']
-draft: false
+draft: true
 summary: 'This is a Google clone made with Next.js, tailwind and Google API. The goal was to practice server side rendering and fetch + render the API call results'
 ---
 
