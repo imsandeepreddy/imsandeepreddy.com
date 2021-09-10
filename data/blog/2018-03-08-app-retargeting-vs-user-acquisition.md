@@ -7,6 +7,10 @@ summary: 'In this article we introduce adding images in the tailwind starter blo
 author: default
 ---
 
+## Foreword
+
+This is a post that has been originally published on [Remerge](https://www.remerge.io/) blog in 2018.
+
 ## Intro
 
 The dynamic environment of the mobile marketing industry has seen some huge developments over the last few years. New technologies, changing user behaviours, vicious app chart battles and alternative marketing approaches have opened up a whole new set of opportunities for brands to interact with their audiences more personally than ever before.

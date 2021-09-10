@@ -48,7 +48,7 @@ export default function Welcome() {
             >
               growth
             </RoughNotation>{' '}
-            executive and aspiring polymath based in Singapore.
+            executive, maker and aspiring polymath based in Singapore.
           </p>
           <p>
             I also experiment with digital products, life design and emerging technology. Feel free
@@ -64,7 +64,7 @@ export default function Welcome() {
             >
               sign-up
             </RoughNotation>{' '}
-            for my occasional essays on being better below.
+            for my occasional essays on life and work.
           </p>
         </div>
       </div>

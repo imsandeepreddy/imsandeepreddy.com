@@ -22,7 +22,7 @@ export default function Work() {
         <div className="margin:0 grid gap-10 md:grid-cols-2 lg:grid-cols-3 text-center">
           <div>
             <h2 className="mb-0">Discovery</h2>
-            <p>Validation and hypothesis testing via experiments and feedback</p>
+            <p>Validation and hypothesis testing via rapid experiments</p>
           </div>
           <div>
             <h2>Product</h2>

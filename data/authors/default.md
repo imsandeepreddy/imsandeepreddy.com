@@ -35,8 +35,8 @@ A few milestones from my life:
 
 - **NOW** - I am exploring investments into profitable SaaS companies, building rapid MVPs and developing a digital garden / second brain via personal knowledge management tools like [Obsidian](https://obsidian.md/).
 
-My passion is general life design utilising experimentation and never-ending search for knowledge.
+My passion is never-ending search for knowledge, learning and leading an examined life.
 
-This websites serves as my playground for tinkering with ideas, products and thoughts and figuring out how the world works.
+This websites serves as my playground for for experimenting with ideas, products, thoughts and figuring out how the world works.
 
 [My DMs are always opened](https://www.twitter.com/SoKirill), alternatively you can [book a call](https://calendar.kirillso.com/book) with me or subscibe to my essays.
