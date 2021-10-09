@@ -21,3 +21,7 @@ The good news is you're still young and have set up a situation where you should
 Last thing, tons of people look back on their youth and wish they had done it differently. That experience is almost universal. But you didn't "throw away" those years. You used it to build something and that path led you to this point. Now you need to choose to what's next, and my suggestion is pursue the thing you've been avoiding.
 
 I went through all this, and if it resonates for you, I'm happy to talk through it more. When I realized what being a workaholic did to me, I set some new boundaries and started to pursue new goals. Overall it's made me feel a lot more fulfilled in life.
+
+This is a a draft
+
+### Hello
