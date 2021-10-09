@@ -3,7 +3,7 @@ title: App retargeting vs user acquisition
 date: '2018-03-08'
 tags: ['mobile', 'marketing', 'growth']
 draft: false
-summary: 'In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.'
+summary: 'App retargeting introduced a new way how to reengage users in mobile apps which was not previously easy. In this article I briefly outline how it compares with user acquisition, various segmentation options and benefits.'
 author: default
 ---
 

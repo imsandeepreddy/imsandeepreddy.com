@@ -1,12 +1,14 @@
 ---
 title: On workaholism
 date: '2020-11-11'
-tags: ['finance', 'work', 'career']
+tags: ['life', 'work', 'career']
 draft: true
-summary: 'In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.'
+summary: ''
 author: 'default'
 images: ['/static/img/blog/workaholism/test.png']
 ---
+
+# Hello
 
 https://www.reddit.com/r/fatFIRE/comments/ogol3u/was_sacrificing_1015_years_of_life_a_mistake/h4kgv9m?utm_source=share&utm_medium=web2x&context=3
 
