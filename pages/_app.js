@@ -27,6 +27,7 @@ export default function App({ Component, pageProps }) {
     <ThemeProvider attribute="class">
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="canonical" href="https://www.kirillso.com/" />
       </Head>
       <LayoutWrapper>
         <Component {...pageProps} />
