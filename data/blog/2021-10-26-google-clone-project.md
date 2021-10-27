@@ -8,8 +8,6 @@ author: 'default'
 images: ['static/img/projects/google-project-thumbnail.png']
 ---
 
-# Google clone
-
 ## Description
 
 This web app is a clone of Google search engine built with `Next.js`, `Tailwind`, `Google Search API`, `Hero Icons` and hosted on `Vercel`.
