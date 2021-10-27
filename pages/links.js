@@ -2,6 +2,7 @@ import siteMetadata from '@/data/siteMetadata'
 import socialLinkData from '@/data/socialLinkData'
 import { PageSeo } from '@/components/SEO'
 import SocialLink from '@/components/SocialLink'
+import Image from '@/components/Image'
 
 export default function SocialLinks() {
   return (
@@ -12,11 +13,18 @@ export default function SocialLinks() {
       />
       <div className="divide-y divide-gray-3">
         <div className="prose dark:prose-dark text-center pt-6 pb-8 space-y-2 md:space-y-5">
-          <h1>Projects</h1>
-          <p>A list of projects I have been working on</p>
+          <Image
+            src={siteMetadata.image}
+            alt="avatar"
+            height={150}
+            width={150}
+            className="rounded-full"
+          />
+          <h1>Kirill So</h1>
+          <p>Helping people</p>
         </div>
         <div className="container py-12">
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap">
             {socialLinkData.map((d) => (
               <SocialLink
                 key={d.title}

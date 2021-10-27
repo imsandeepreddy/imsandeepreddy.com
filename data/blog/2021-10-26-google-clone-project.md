@@ -1,11 +1,11 @@
 ---
 title: Google clone
-date: '2021-26-10'
+date: '2021-10-26'
 tags: ['project', 'dev', 'next js']
 draft: false
 summary: 'A clone of a Google website that is built with Next.js, Tailwind, Google Search API, Hero Icons and hosted on Vercel. The purpose was to practice and test external API fetching and styling the results.'
 author: 'default'
-images: ['/static/img/blog/projects/google-clone-thumbnail.png']
+images: ['static/img/projects/google-project-thumbnail.png']
 ---
 
 # Google clone
