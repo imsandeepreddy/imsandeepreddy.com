@@ -57,7 +57,10 @@ export default function Subscribe() {
             Subscribe to MetaView
           </RoughNotation>
         </h2>
-        <p>An irregular digest that helps you become smarter and better human being.</p>
+        <p>
+          I send an irregular digest when I post something and 2-3 interesting bookmarks to become a
+          better human.
+        </p>
 
         <form className="relative my-4" onSubmit={subscribe}>
           <input

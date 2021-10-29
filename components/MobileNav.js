@@ -18,7 +18,8 @@ const MobileNav = () => {
   }
 
   return (
-    <div className="sm:hidden">
+    // * Comment: The SVG here needs padding of 2 to push the image a bit lower to be inline with the toggle button. Couldn't figure out a better way to do it.
+    <div className="sm:hidden pt-2">
       <button
         type="button"
         className="w-8 h-8 ml-1 mr-1 rounded"

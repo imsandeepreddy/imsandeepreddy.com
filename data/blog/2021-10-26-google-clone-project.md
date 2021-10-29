@@ -5,7 +5,7 @@ tags: ['project', 'dev', 'next js']
 draft: false
 summary: 'A clone of a Google website that is built with Next.js, Tailwind, Google Search API, Hero Icons and hosted on Vercel. The purpose was to practice and test external API fetching and styling the results.'
 author: 'default'
-images: ['static/img/projects/google-project-thumbnail.png']
+images: ['/static/img/projects/google-project-thumbnail.png']
 ---
 
 ## Description
