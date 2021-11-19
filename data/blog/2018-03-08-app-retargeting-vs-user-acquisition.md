@@ -7,9 +7,21 @@ summary: 'App retargeting introduced a new way how to reengage users in mobile a
 author: default
 ---
 
+# Table of Contents
+
+- [Table of Contents](#table-of-contents)
+  - [Foreword](#foreword)
+  - [Intro](#intro)
+  - [At First There Was Acquisition](#at-first-there-was-acquisition)
+  - [Enter the Age of Engagement](#enter-the-age-of-engagement)
+  - [Know Your User](#know-your-user)
+  - [Segment the Smart Way](#segment-the-smart-way)
+  - [Get Personal](#get-personal)
+  - [Reap the Benefits](#reap-the-benefits)
+
 ## Foreword
 
-This is a post that has been originally published on [Remerge](https://www.remerge.io/) blog in 2018.
+This is a post that has been originally published on [Remerge](https://www.remerge.io/) website in 2018.
 
 ## Intro
 

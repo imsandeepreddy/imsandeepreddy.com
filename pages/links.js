@@ -3,7 +3,6 @@ import socialLinkData from '@/data/socialLinkData'
 import { PageSeo } from '@/components/SEO'
 import SocialLink from '@/components/SocialLink'
 import Image from '@/components/Image'
-import Icon from '@/components/icons'
 
 export default function SocialLinks() {
   return (
