@@ -60,7 +60,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </div>
           </div>
           <footer>
-            <dl className="py-5">
+            {/* This is an author badge */}
+
+            {/* <dl className="py-5">
               <dt className="sr-only">Authors</dt>
               <dd>
                 <ul>
@@ -94,7 +96,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   ))}
                 </ul>
               </dd>
-            </dl>
+            </dl> */}
 
             {(next || prev) && (
               <div className="flex justify-between pt-5 prose dark:prose-dark">
@@ -117,14 +119,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               </div>
             )}
 
-            <div className="pt-4 xl:pt-8">
-              <Link
-                href="/blog"
-                className="text-xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-              >
-                &larr; Back to the blog
-              </Link>
-            </div>
+            <div className="pt-4 xl:pt-8"></div>
           </footer>
         </div>
       </article>

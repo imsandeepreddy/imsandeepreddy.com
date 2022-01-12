@@ -57,7 +57,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="dark:hidden">
+        <div className="hidden dark:block">
           <Image
             src="/static/img/work/carousell.svg"
             alt="grab"
@@ -66,7 +66,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="hidden dark:block">
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/carousell-dark.svg"
             alt="grab"
@@ -85,7 +85,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="dark:hidden">
+        <div className="hidden dark:block">
           <Image
             src="/static/img/work/amazon.svg"
             alt="grab"
@@ -94,7 +94,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="hidden dark:block">
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/amazon-dark.svg"
             alt="grab"
@@ -103,7 +103,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="dark:hidden">
+        <div className="hidden dark:block">
           <Image
             src="/static/img/work/cbs.svg"
             alt="grab"
@@ -112,7 +112,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="hidden dark:block">
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/cbs-dark.svg"
             alt="grab"
@@ -130,7 +130,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="dark:hidden">
+        <div className="hidden dark:block">
           <Image
             src="/static/img/work/rocket-internet.svg"
             alt="grab"
@@ -139,7 +139,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="hidden dark:block">
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/rocket-internet-dark.svg"
             alt="grab"
@@ -175,7 +175,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="dark:hidden">
+        <div className="hidden dark:block">
           <Image
             src="/static/img/work/moonton.svg"
             alt="grab"
@@ -184,7 +184,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="hidden dark:block">
+        <div className="dark:hidden">
           <Image
             src="/static/img/work/moonton-dark.svg"
             alt="grab"
@@ -193,7 +193,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="dark:hidden">
+        <div className="hidden dark:block">
           <Image
             src="/static/img/work/nexon.svg"
             alt="grab"
@@ -202,7 +202,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="hidden dark:block">
+        <div className="dark:block">
           <Image
             src="/static/img/work/nexon-dark.svg"
             alt="grab"
@@ -211,7 +211,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="dark:hidden">
+        <div className="hidden dark:block">
           <Image
             src="/static/img/work/global-fashion-group.svg"
             alt="grab"
@@ -220,7 +220,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="hidden dark:block">
+        <div className="dark:block">
           <Image
             src="/static/img/work/global-fashion-group-dark.svg"
             alt="grab"
