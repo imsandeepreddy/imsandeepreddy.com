@@ -1,6 +1,6 @@
 ---
 title: On workaholism
-date: '2020-11-11'
+date: '2022-01-30'
 tags: ['life', 'work', 'career']
 draft: true
 summary: ''
@@ -8,7 +8,7 @@ author: 'default'
 images: ['/static/img/blog/workaholism/test.png']
 ---
 
-# Hello
+## Intro
 
 https://www.reddit.com/r/fatFIRE/comments/ogol3u/was_sacrificing_1015_years_of_life_a_mistake/h4kgv9m?utm_source=share&utm_medium=web2x&context=3
 

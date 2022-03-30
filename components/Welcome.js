@@ -35,9 +35,9 @@ export default function Welcome() {
               strokeWidth="3"
               show={true}
             >
-              product
+              product manager
             </RoughNotation>{' '}
-            and{' '}
+            by day and self-taught{' '}
             <RoughNotation
               animationDelay="4000"
               animationDuration="2000"
@@ -46,13 +46,24 @@ export default function Welcome() {
               show={true}
               strokeWidth="3"
             >
-              growth
+              developer
             </RoughNotation>{' '}
-            executive, maker and aspiring polymath based in Singapore.
+            and{' '}
+            <RoughNotation
+              animationDelay="5000"
+              animationDuration="2000"
+              type="highlight"
+              color="#0ea4e9"
+              show={true}
+              strokeWidth="3"
+            >
+              designer
+            </RoughNotation>{' '}
+            by night. Embracing being a generalist and aspiring to become a polymath.
           </p>
           <p>
-            I also experiment with digital products, life design and emerging technology. Feel free
-            to learn more <Link href="/about">about me</Link>, ping me on{' '}
+            Currently experimenting with with life design and digital products. Feel free to learn
+            more <Link href="/about">about me</Link>, ping me on{' '}
             <a href="https://twitter.com/sokirill">Twitter</a> or{' '}
             <RoughNotation
               animationDelay="6000"
@@ -64,7 +75,7 @@ export default function Welcome() {
             >
               sign-up
             </RoughNotation>{' '}
-            for my occasional essays on life and work.
+            for my essays.
           </p>
         </div>
       </div>

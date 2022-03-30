@@ -11,9 +11,21 @@ github: https://github.com/sokirill
 
 ![singapore conference](/static/img/personal/conference-singapore.jpeg)
 
-I'm a former go-to-market executive, currently operating on the intersection of growth and product. In my free time I tinker with rapid MVPs, design, writing, researching, investments and experimenting with new things.
+Hey, thanks for landing on this page and checking out a more extensive version of my humble-brag page 😄
 
-A few milestones from my life:
+## Why
+
+This corner of the internet helps me clarify and improve my own thinking. Its a mechanism to cope with my chaotic brain that constantly comes up with thoughts or comprehensions of the world concepts but sometimes has conflicts or struggles to structure and organize them.
+
+I believe writing is a superpower that most people are yet to discover, because its mainly a path to understanding yourself and sense-making of a rapidly changing world we live in.
+
+## Who
+
+I currently work as a product manager at a tech company and formerly a go-to-market executive. In my free time I am also learning to code, design and writing bi-weekly essays about life & work.
+
+When possible I also help founders and entrepreneurs with product, growth, talent acquisition and fundraising via Calm Company Fund where I am engaged as a scout and a small investor. If you are building a startup, give me a shout!
+
+## Professional milestines
 
 - **2010** - Landed my first job in [private equity fund](https://www.enercap.com/) and helped raise **over $200m in debt financing** for renewable energy projects in CEE (solar & wind).
 
@@ -39,4 +51,4 @@ My passion is never-ending search for knowledge, learning and leading an examine
 
 This websites serves as my playground for for experimenting with ideas, products, thoughts and figuring out how the world works.
 
-[My DMs are always opened](https://www.twitter.com/SoKirill), alternatively you can [book a call](https://calendar.kirillso.com/book) with me or subscibe to my essays.
+[My DMs are always opened](https://www.twitter.com/SoKirill), alternatively you can [book a call](https://cal.com/sokirill) with me or subscibe to my essays.

@@ -211,7 +211,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="hidden dark:block">
+        <div className="block dark:hidden">
           <Image
             src="/static/img/work/global-fashion-group.svg"
             alt="grab"
@@ -220,7 +220,7 @@ export default function Work() {
             className="object-contain"
           />
         </div>
-        <div className="dark:block">
+        <div className="hidden dark:block">
           <Image
             src="/static/img/work/global-fashion-group-dark.svg"
             alt="grab"
