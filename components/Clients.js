@@ -23,7 +23,7 @@ export default function Work() {
         <div>
           <Image
             src="/static/img/work/skyscanner.svg"
-            alt="skyscanner"
+            alt="Skyscanner"
             height={100}
             width={300}
             className="object-contain"
@@ -32,7 +32,7 @@ export default function Work() {
         <div>
           <Image
             src="/static/img/work/king.svg"
-            alt="king"
+            alt="King"
             height={100}
             width={300}
             className="object-contain"
@@ -42,7 +42,7 @@ export default function Work() {
         <div className="py-2 max-w-none">
           <Image
             src="/static/img/work/spotify.svg"
-            alt="spotify"
+            alt="Spotify"
             height={100}
             width={300}
             className="object-contain"
@@ -51,7 +51,16 @@ export default function Work() {
         <div>
           <Image
             src="/static/img/work/grab.svg"
-            alt="grab"
+            alt="Grab"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="block dark:hidden">
+          <Image
+            src="/static/img/work/carousell.svg"
+            alt="Carousell"
             height={100}
             width={300}
             className="object-contain"
@@ -59,17 +68,8 @@ export default function Work() {
         </div>
         <div className="hidden dark:block">
           <Image
-            src="/static/img/work/carousell.svg"
-            alt="grab"
-            height={100}
-            width={300}
-            className="object-contain"
-          />
-        </div>
-        <div className="dark:hidden">
-          <Image
             src="/static/img/work/carousell-dark.svg"
-            alt="grab"
+            alt="Carousell"
             height={100}
             width={300}
             className="object-contain"
@@ -79,25 +79,16 @@ export default function Work() {
         <div>
           <Image
             src="/static/img/work/line.svg"
-            alt="grab"
+            alt="Line"
             height={100}
             width={300}
             className="object-contain"
           />
         </div>
-        <div className="hidden dark:block">
+        <div className="block dark:hidden">
           <Image
             src="/static/img/work/amazon.svg"
-            alt="grab"
-            height={100}
-            width={300}
-            className="object-contain"
-          />
-        </div>
-        <div className="dark:hidden">
-          <Image
-            src="/static/img/work/amazon-dark.svg"
-            alt="grab"
+            alt="Amazon"
             height={100}
             width={300}
             className="object-contain"
@@ -105,17 +96,26 @@ export default function Work() {
         </div>
         <div className="hidden dark:block">
           <Image
-            src="/static/img/work/cbs.svg"
-            alt="grab"
+            src="/static/img/work/amazon-dark.svg"
+            alt="Amazon"
             height={100}
             width={300}
             className="object-contain"
           />
         </div>
-        <div className="dark:hidden">
+        <div className="block dark:hidden">
+          <Image
+            src="/static/img/work/cbs.svg"
+            alt="CBS"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="hidden dark:block">
           <Image
             src="/static/img/work/cbs-dark.svg"
-            alt="grab"
+            alt="CBS"
             height={100}
             width={300}
             className="object-contain"
@@ -124,7 +124,16 @@ export default function Work() {
         <div>
           <Image
             src="/static/img/work/playrix.svg"
-            alt="grab"
+            alt="Playrix"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="block dark:hidden">
+          <Image
+            src="/static/img/work/rocket-internet.svg"
+            alt="Rocket internet"
             height={100}
             width={300}
             className="object-contain"
@@ -132,17 +141,8 @@ export default function Work() {
         </div>
         <div className="hidden dark:block">
           <Image
-            src="/static/img/work/rocket-internet.svg"
-            alt="grab"
-            height={100}
-            width={300}
-            className="object-contain"
-          />
-        </div>
-        <div className="dark:hidden">
-          <Image
             src="/static/img/work/rocket-internet-dark.svg"
-            alt="grab"
+            alt="Rocket internet"
             height={100}
             width={300}
             className="object-contain"
@@ -151,7 +151,7 @@ export default function Work() {
         <div>
           <Image
             src="/static/img/work/twitter.svg"
-            alt="grab"
+            alt="Twitter"
             height={100}
             width={300}
             className="object-contain"
@@ -160,7 +160,7 @@ export default function Work() {
         <div>
           <Image
             src="/static/img/work/delivery-hero.svg"
-            alt="grab"
+            alt="Delivery Hero"
             height={100}
             width={300}
             className="object-contain"
@@ -169,25 +169,16 @@ export default function Work() {
         <div>
           <Image
             src="/static/img/work/bytedance.svg"
-            alt="grab"
+            alt="ByteDance"
             height={100}
             width={300}
             className="object-contain"
           />
         </div>
-        <div className="hidden dark:block">
+        <div className="block dark:hidden">
           <Image
             src="/static/img/work/moonton.svg"
-            alt="grab"
-            height={100}
-            width={300}
-            className="object-contain"
-          />
-        </div>
-        <div className="dark:hidden">
-          <Image
-            src="/static/img/work/moonton-dark.svg"
-            alt="grab"
+            alt="Moonton"
             height={100}
             width={300}
             className="object-contain"
@@ -195,17 +186,26 @@ export default function Work() {
         </div>
         <div className="hidden dark:block">
           <Image
-            src="/static/img/work/nexon.svg"
-            alt="grab"
+            src="/static/img/work/moonton-dark.svg"
+            alt="Moonton"
             height={100}
             width={300}
             className="object-contain"
           />
         </div>
-        <div className="dark:block">
+        <div className="block dark:hidden">
+          <Image
+            src="/static/img/work/nexon.svg"
+            alt="Nexon"
+            height={100}
+            width={300}
+            className="object-contain"
+          />
+        </div>
+        <div className="hidden dark:block">
           <Image
             src="/static/img/work/nexon-dark.svg"
-            alt="grab"
+            alt="Nexon"
             height={100}
             width={300}
             className="object-contain"
@@ -214,7 +214,7 @@ export default function Work() {
         <div className="block dark:hidden">
           <Image
             src="/static/img/work/global-fashion-group.svg"
-            alt="grab"
+            alt="Global fashion group"
             height={100}
             width={300}
             className="object-contain"
@@ -223,7 +223,7 @@ export default function Work() {
         <div className="hidden dark:block">
           <Image
             src="/static/img/work/global-fashion-group-dark.svg"
-            alt="grab"
+            alt="Global fashion group"
             height={100}
             width={300}
             className="object-contain"

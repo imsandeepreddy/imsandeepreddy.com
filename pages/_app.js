@@ -9,10 +9,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as gtag from '../lib/gtag'
 
-import splitbee from '@splitbee/web'
-
 export default function App({ Component, pageProps }) {
-  splitbee.init()
   const router = useRouter()
   useEffect(() => {
     const handleRouteChange = (url) => {
