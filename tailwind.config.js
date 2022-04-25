@@ -198,10 +198,10 @@ module.exports = {
     },
   },
   variants: {
-    typography: ['dark'],
     extend: {
       display: ['dark'],
     },
+    typography: ['dark'],
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }
