@@ -25,7 +25,7 @@ I currently work as a product manager at a tech company and formerly a go-to-mar
 
 When possible I also help founders and entrepreneurs with product, growth, talent acquisition and fundraising via Calm Company Fund where I am engaged as a scout and a small investor. If you are building a startup, give me a shout!
 
-## Professional milestines
+## Professional milestones
 
 - **2010** - Landed my first job in [private equity fund](https://www.enercap.com/) and helped raise **over $200m in debt financing** for renewable energy projects in CEE (solar & wind).
 
