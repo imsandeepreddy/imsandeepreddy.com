@@ -23,7 +23,7 @@ export default function Home({ posts }) {
     <>
       <PageSeo title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="prose dark:prose-dark pt-6 pb-6 space-y-2 md:space-y-5">
+        <div className="prose space-y-2 pt-6 pb-6 dark:prose-dark md:space-y-5">
           <Welcome />
           <Subscribe />
           <Work />
@@ -34,7 +34,7 @@ export default function Home({ posts }) {
               animationDelay="1000"
               animationDuration="4000"
               type="circle"
-              color="#0ea4e9"
+              color="#5DE4c7"
               show={true}
               strokeWidth="3"
             >
@@ -49,7 +49,7 @@ export default function Home({ posts }) {
             return (
               <li key={slug} className="py-12">
                 <article>
-                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-lg font-medium leading-7 text-gray-500 dark:text-gray-400">
@@ -59,10 +59,10 @@ export default function Home({ posts }) {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div>
-                          <h2 className="text-3xl font-serif font-bold leading-7 tracking-normal">
+                          <h2 className="font-serif text-3xl font-bold leading-7 tracking-normal">
                             <Link
                               href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100 hover:text-primary-600 dark:hover:text-primary-400"
+                              className="text-gray-900 hover:text-primary-600 dark:text-gray-100 dark:hover:text-primary-400"
                             >
                               {title}
                             </Link>
@@ -74,11 +74,9 @@ export default function Home({ posts }) {
                             ))}
                           </div>
                         </div>
-                        <div className="text-lg text-gray-600 dark:text-gray-300 max-w-none">
-                          {summary}
-                        </div>
+                        <div className="prose max-w-none dark:prose-dark">{summary}</div>
                       </div>
-                      <div className="text-base uppercase font-medium leading-7">
+                      <div className="text-base font-medium uppercase leading-7">
                         <Link
                           href={`/blog/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"

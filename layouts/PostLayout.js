@@ -50,7 +50,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </div>
           </header>
 
-          <div className="py-5 prose dark:prose-dark max-w-none">
+          <div className="prose max-w-none py-5 dark:prose-dark">
             {children}
             <div className="text-center">
               <Link href={discussUrl(slug)} rel="nofollow">
@@ -98,7 +98,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </dl> */}
 
             {(next || prev) && (
-              <div className="flex justify-between pt-5 prose dark:prose-dark">
+              <div className="prose flex justify-between pt-5 dark:prose-dark">
                 {prev && (
                   <div>
                     <h6>Previous post</h6>

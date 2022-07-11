@@ -9,7 +9,7 @@ const projectsData = [
     title: 'Logseq Panic Theme',
     description: `A dark theme inspored by Panic and palette for Logseq.`,
     imgSrc: '/static/img/projects/logseq-panic-mode-theme-thumbnail.png',
-    href: 'https://github.com/sokirill/logseq-panic-theme',
+    href: 'https://github.com/kirso/logseq-panic-theme',
   },
   {
     title: 'Schwiftyverse on Solana',

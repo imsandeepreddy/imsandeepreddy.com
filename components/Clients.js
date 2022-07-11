@@ -11,7 +11,7 @@ export default function Work() {
             animationDelay="1000"
             animationDuration="4000"
             type="box"
-            color="#0ea4e9"
+            color="#5DE4c7"
             show={true}
             strokeWidth="3"
           >
@@ -19,7 +19,7 @@ export default function Work() {
           </RoughNotation>
         </h1>
       </div>
-      <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 text-center justify-center">
+      <div className="grid justify-center gap-10 text-center md:grid-cols-2 lg:grid-cols-4">
         <div>
           <Image
             src="/static/img/work/skyscanner.svg"
@@ -39,7 +39,7 @@ export default function Work() {
           />
         </div>
 
-        <div className="py-2 max-w-none">
+        <div className="max-w-none py-2">
           <Image
             src="/static/img/work/spotify.svg"
             alt="Spotify"

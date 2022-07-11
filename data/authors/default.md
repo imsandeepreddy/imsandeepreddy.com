@@ -5,8 +5,8 @@ occupation: Head of Product
 company: Ringl Technologies
 email: kirill@kirill.digital
 twitter: https://twitter.com/sokirill
-linkedin: https://www.linkedin.com/in/sokirill
-github: https://github.com/sokirill
+linkedin: https://www.linkedin.com/in/kirso
+github: https://github.com/kirso
 ---
 
 ![singapore conference](/static/img/personal/conference-singapore.jpeg)

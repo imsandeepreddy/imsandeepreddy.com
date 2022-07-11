@@ -5,13 +5,13 @@ export default function Work() {
     <>
       <div className="py-6">
         <div>
-          <h1 className="text-center pb-4">
+          <h1 className="pb-4 text-center">
             <RoughNotation
               animate="true"
               animationDelay="1000"
               animationDuration="4000"
               type="box"
-              color="#0ea4e9"
+              color="#5DE4c7"
               show={true}
               strokeWidth="3"
             >
@@ -19,7 +19,7 @@ export default function Work() {
             </RoughNotation>
           </h1>
         </div>
-        <div className="margin:0 grid gap-10 md:grid-cols-2 lg:grid-cols-3 text-center">
+        <div className="margin:0 grid gap-10 text-center md:grid-cols-2 lg:grid-cols-3">
           <div>
             <h2 className="mb-0">Discovery</h2>
             <p>Validation and hypothesis testing via rapid experiments</p>

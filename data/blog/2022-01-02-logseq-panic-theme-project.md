@@ -12,7 +12,7 @@ images: ['/static/img/projects/logseq-project-thumbnail.png']
 
 This theme uses basic `CSS`, `Mulish` font family hosted by Google and hosted on `JSdelivr`.
 
-[Github repo link](https://github.com/sokirill/logseq-panic-theme)
+[Github repo link](https://github.com/kirso/logseq-panic-theme)
 
 ## How I worked on this project
 

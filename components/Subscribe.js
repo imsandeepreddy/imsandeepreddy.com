@@ -4,7 +4,6 @@ import fetcher from '@/lib/fetcher'
 import SuccessMessage from '@/components/SuccessMessage'
 import ErrorMessage from '@/components/ErrorMessage'
 import LoadingSpinner from '@/components/LoadingSpinner'
-import { RoughNotation } from 'react-rough-notation'
 
 export default function Subscribe() {
   const [form, setForm] = useState(false)
@@ -43,33 +42,24 @@ export default function Subscribe() {
   }
 
   return (
-    <div className="py-6 prose dark:prose-dark max-w-full">
-      <div className=" border border-primary-200 rounded-lg p-5 bg-primary-100 dark:bg-primary-900">
-        <h2 className="text-center">
-          <RoughNotation
-            animationDelay="3000"
-            animationDuration="4000"
-            type="underline"
-            color="#0ea4e9"
-            strokeWidth="3"
-            show={true}
-          >
-            Subscribe to MetaView
-          </RoughNotation>
-        </h2>
-        <p>An irregular digest about experiments with 2-3 interwebz bookmarks.</p>
+    <div className="max-w-full py-6">
+      <div className="w-full rounded-md bg-gray-100 px-4 py-2  dark:bg-gray-800">
+        <h2 className="prose text-center dark:prose-dark">metaview</h2>
+        <p className="text-center">
+          An irregular digest about experiments with 2-3 interwebz bookmarks.
+        </p>
         <form className="relative my-4" onSubmit={subscribe}>
           <input
             ref={inputEl}
-            aria-label="Newsletter email subscription"
+            aria-label="Newsletter subscription"
             placeholder="you.are@awesome.com"
             type="email"
             autoComplete="email"
             required
-            className="dark:text-gray-600 text-gray-600 px-4 py-2 mt-1 text-lg border-none block w-full rounded-md "
+            className="block w-full rounded-md border-gray-300 py-2.5  px-4 focus:ring-primary-500"
           />
           <button
-            className="flex items-center justify-center absolute right-2 top-1 px-6 font-bold h-9 bg-primary-500 hover:bg-primary-900 text-gray-100 dark:text-gray-100 rounded-md w-28"
+            className="w-25 absolute top-1 right-2 flex h-9 items-center rounded-md bg-primary-700 px-6 py-4 text-white hover:bg-primary-900 dark:text-white"
             type="submit"
           >
             {form.state === 'loading' ? <LoadingSpinner /> : 'Subscribe'}
@@ -80,7 +70,7 @@ export default function Subscribe() {
         ) : form.state === 'success' ? (
           <SuccessMessage>{form.message}</SuccessMessage>
         ) : (
-          <p className="text-lg text-center font-sans text-gray-600 dark:text-gray-300">
+          <p className="prose text-center dark:prose-dark">
             {`${subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'} subscribers`}
 
             {/* <a>2 issues</a> */}
