@@ -88,7 +88,9 @@ module.exports = withBundleAnalyzer({
     if (!dev && !isServer) {
       // Replace React with Preact only in client production build
       Object.assign(config.resolve.alias, {
-        'react/jsx-runtime.js': 'preact/compat/jsx-runtime',
+        // fixes next-mdx-remote: Package path ./jsx-runtime.js is not exported from package react
+        // https://github.com/hashicorp/next-mdx-remote/issues/237
+        'react/jsx-runtime.js': require.resolve('react/jsx-runtime'),
         react: 'preact/compat',
         'react-dom/test-utils': 'preact/test-utils',
         'react-dom': 'preact/compat',
