@@ -20,7 +20,7 @@ export default function Tags({ tags }) {
         description="Blog post topics and categories"
       />
       <div className="divide-y divide-gray-300">
-        <div className="prose dark:prose-dark text-center pt-6 pb-8 space-y-2 md:space-y-5">
+        <div className="prose space-y-2 pt-6 pb-8 text-center dark:prose-dark md:space-y-5">
           <h1>Tags</h1>
           <p>A collection of topic and categoory tags to sort blog posts</p>
         </div>
@@ -32,7 +32,7 @@ export default function Tags({ tags }) {
                 <Tag text={t} />
                 <Link
                   href={`/tags/${kebabCase(t)}`}
-                  className="-ml-2 text-sm font-semibold text-gray-600 uppercase dark:text-gray-300"
+                  className="-ml-2 text-sm font-semibold uppercase text-gray-600 dark:text-gray-300"
                 >
                   {` (${tags[t]})`}
                 </Link>

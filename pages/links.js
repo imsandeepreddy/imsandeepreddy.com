@@ -11,8 +11,8 @@ export default function SocialLinks() {
         title={`Social Links - ${siteMetadata.author}`}
         description={siteMetadata.description}
       />
-      <div className="divide-y divide-gray-3">
-        <div className="prose dark:prose-dark text-center pt-6 pb-8 space-y-2 md:space-y-5">
+      <div className="divide-gray-3 divide-y">
+        <div className="prose space-y-2 pt-6 pb-8 text-center dark:prose-dark md:space-y-5">
           <Image
             src={siteMetadata.image}
             alt="avatar"

@@ -1,7 +1,7 @@
-import Image from './Image'
 import Link from './Link'
 
 const Card = ({ title, description, imgSrc, href }) => (
+  // TODO - add a link to the card
   <div className="mt-1 mb-1 rounded-md border border-gray-300 hover:border-dotted	 dark:border-gray-600">
     <div className="flex flex-row overflow-hidden ">
       <div className="p-6">

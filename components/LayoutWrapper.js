@@ -8,7 +8,7 @@ import ThemeSwitch from './ThemeSwitch'
 const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
-      <div className="flex flex-col justify-between h-screen min-w-1/2">
+      <div className="min-w-1/2 flex h-screen flex-col justify-between">
         <header className="flex items-center justify-center py-10">
           <div className="flex items-center text-base leading-7">
             <div className="hidden sm:block">
@@ -16,7 +16,7 @@ const LayoutWrapper = ({ children }) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="mb-auto font-medium text-lg text-gray-800 dark:text-gray-100 sm:p-4 hover:text-primary-600 dark:hover:text-primary-400"
+                  className="mb-auto text-lg font-medium text-gray-800 hover:text-primary-600 dark:text-gray-100 dark:hover:text-primary-400 sm:p-4"
                 >
                   {link.title}
                 </Link>
