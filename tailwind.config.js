@@ -2,8 +2,16 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  purge: ['./pages/**/*.js', './components/**/*.js', './layouts/**/*.js', './lib/**/*.js'],
+  experimental: {
+    optimizeUniversalDefaults: true,
+  },
+  content: [
+    './pages/**/*.js',
+    './components/**/*.js',
+    './layouts/**/*.js',
+    './lib/**/*.js',
+    './data/**/*.mdx',
+  ],
   darkMode: 'class',
   theme: {
     extend: {
@@ -47,12 +55,10 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            fontFamily: 'inter',
+            fontFamily: 'sans',
             color: theme('colors.gray.600'),
-            fontSize: '1.125rem', // Tailwind LG
-            lineHeight: '1.75rem', // Tailwind LG
-            letterSpacing: 'letterSpacing.tight',
-            fontWeight: '400', // Tailwind normal,
+            fontSize: '1.125rem', // Tailwind lg
+            letterSpacing: theme('letterSpacing.tight'),
             a: {
               color: theme('colors.primary.700'),
               textDecoration: 'none',
@@ -62,8 +68,8 @@ module.exports = {
               code: { color: theme('colors.primary.400') },
             },
             h1: {
-              fontFamily: 'serif',
               fontWeight: '900', // TailwindTaiwlind black
+              fontFamily: 'serif',
               fontSize: '2.25rem', // Taiwlind 4XL
               lineHeight: '2.5rem', // Tailwind 4XL
               letterSpacing: theme('letterSpacing.normal'),
@@ -72,8 +78,8 @@ module.exports = {
               'margin-bottom': '1',
             },
             h2: {
-              fontFamily: 'serif',
               fontWeight: '800',
+              fontFamily: 'serif',
               fontSize: '1.875rem', // Taiwlind 3XL
               lineHeight: '2.25rem', // Tailwind 3XL
               letterSpacing: theme('letterSpacing.normal'),
@@ -134,10 +140,8 @@ module.exports = {
           css: {
             color: theme('colors.gray.300'),
             fontFamily: 'sans',
-            fontSize: '1.125rem', // Tailwind LG
-            lineHeight: '1.75rem', // Tailwind LG
-            letterSpacing: 'letterSpacing.tight',
-            fontWeight: '400', // Tailwind normal,
+            fontSize: '1.125rem', // Tailwind lg
+            letterSpacing: theme('letterSpacing.tight'),
             a: {
               color: theme('colors.primary.400'),
               textDecoration: 'none',

@@ -4,6 +4,7 @@ import SectionContainer from '@/components/SectionContainer'
 import { BlogSeo } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
+import Subscribe from '@/components/Subscribe'
 
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
@@ -57,7 +58,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 {'Discuss on Twitter 🐦'}
               </Link>
             </div>
+            <Subscribe />
           </div>
+
           <footer>
             {/* This is an author badge */}
 
