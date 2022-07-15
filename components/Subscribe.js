@@ -56,7 +56,7 @@ export default function Subscribe() {
             type="email"
             autoComplete="email"
             required
-            className="block w-full rounded-md border-gray-300 py-2.5  px-4 focus:ring-primary-500"
+            className="block w-full rounded-md border-gray-300 py-2.5 px-4  focus:ring-primary-500 dark:border-gray-300 dark:text-gray-700 dark:focus:border-gray-300 dark:focus:ring-primary-500"
           />
           <button
             className="w-25 absolute top-1 right-2 flex h-9 items-center rounded-md bg-primary-700 px-6 py-4 text-white hover:bg-primary-900 dark:text-white"
