@@ -55,7 +55,7 @@ const MobileNav = () => {
         <button
           type="button"
           aria-label="toggle modal"
-          className="fixed h-full w-full cursor-auto focus:outline-none"
+          className="focus:outline-none fixed h-full w-full cursor-auto"
           onClick={onToggleNav}
         ></button>
         <nav className="fixed mt-8 h-full">
