@@ -25,8 +25,8 @@ module.exports = {
         14: "3.5rem",
       },
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
-        serif: ["Lora", ...defaultTheme.fontFamily.serif],
+        sans: ["Inter"],
+        serif: ["Lora"],
       },
       colors: {
         primary: {
@@ -55,7 +55,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            fontFamily: "sans",
+            fontFamily: "Inter",
             color: theme("colors.gray.600"),
             fontSize: "1.125rem", // Tailwind lg
             letterSpacing: theme("letterSpacing.tight"),
@@ -139,7 +139,7 @@ module.exports = {
         dark: {
           css: {
             color: theme("colors.gray.300"),
-            fontFamily: "sans",
+            fontFamily: "Inter",
             fontSize: "1.125rem", // Tailwind lg
             letterSpacing: theme("letterSpacing.tight"),
             a: {
