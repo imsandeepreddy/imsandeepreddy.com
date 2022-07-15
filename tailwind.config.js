@@ -26,7 +26,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Inter"],
-        serif: ["Lora"],
+        Lora: ["Lora"],
       },
       colors: {
         primary: {
@@ -69,7 +69,7 @@ module.exports = {
             },
             h1: {
               fontWeight: "900", // TailwindTaiwlind black
-              fontFamily: "serif",
+              fontFamily: "Lora",
               fontSize: "2.25rem", // Taiwlind 4XL
               lineHeight: "2.5rem", // Tailwind 4XL
               letterSpacing: theme("letterSpacing.normal"),
@@ -79,7 +79,7 @@ module.exports = {
             },
             h2: {
               fontWeight: "800",
-              fontFamily: "serif",
+              fontFamily: "Lora",
               fontSize: "1.875rem", // Taiwlind 3XL
               lineHeight: "2.25rem", // Tailwind 3XL
               letterSpacing: theme("letterSpacing.normal"),
@@ -88,7 +88,7 @@ module.exports = {
               "margin-bottom": "0.5rem",
             },
             h3: {
-              fontFamily: "serif",
+              fontFamily: "Lora",
               fontWeight: "700",
               fontSize: "1.5rem", // Taiwlind 2XL
               lineHeight: "2rem", // Tailwind 2XL
@@ -98,7 +98,7 @@ module.exports = {
               "margin-bottom": "0.5rem",
             },
             "h4,h5,h6": {
-              fontFamily: "serif",
+              fontFamily: "Lora",
               fontSize: "1.25rem", // Taiwlind  XL
               lineHeight: "1.75rem", // Tailwind  XL
               letterSpacing: theme("letterSpacing.normal"),
@@ -152,7 +152,7 @@ module.exports = {
             },
             h1: {
               fontWeight: "900", // TailwindTaiwlind black
-              fontFamily: "serif",
+              fontFamily: "Lora",
               fontSize: "2.25rem", // Taiwlind 4XL
               lineHeight: "2.5rem", // Tailwind 4XL
               letterSpacing: theme("letterSpacing.normal"),
@@ -162,7 +162,7 @@ module.exports = {
             },
             h2: {
               fontWeight: "800",
-              fontFamily: "serif",
+              fontFamily: "Lora",
               fontSize: "1.875rem", // Taiwlind 3XL
               lineHeight: "2.25rem", // Tailwind 3XL
               letterSpacing: theme("letterSpacing.normal"),
@@ -172,7 +172,7 @@ module.exports = {
             },
             h3: {
               fontWeight: "700",
-              fontFamily: "serif",
+              fontFamily: "Lora",
               fontSize: "1.5rem", // Taiwlind 2XL
               lineHeight: "2rem", // Tailwind 2XL
               letterSpacing: theme("letterSpacing.normal"),
@@ -181,7 +181,7 @@ module.exports = {
               "margin-bottom": "0.5rem",
             },
             "h4,h5,h6": {
-              fontFamily: "serif",
+              fontFamily: "Lora",
               fontSize: "1.25rem", // Taiwlind  XL
               lineHeight: "1.75rem", // Tailwind  XL
               letterSpacing: theme("letterSpacing.normal"),
