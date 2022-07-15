@@ -1,8 +1,8 @@
-import siteMetadata from '@/data/siteMetadata'
-import socialLinkData from '@/data/socialLinkData'
-import { PageSeo } from '@/components/SEO'
-import SocialLink from '@/components/SocialLink'
-import Image from '@/components/Image'
+import siteMetadata from "@/data/siteMetadata";
+import socialLinkData from "@/data/socialLinkData";
+import { PageSeo } from "@/components/SEO";
+import SocialLink from "@/components/SocialLink";
+import Image from "@/components/Image";
 
 export default function SocialLinks() {
   return (
@@ -27,11 +27,16 @@ export default function SocialLinks() {
         <div className="container py-12">
           <div className="flex flex-wrap">
             {socialLinkData.map((d) => (
-              <SocialLink key={d.title} text={d.text} imgSrc={d.imgSrc} href={d.href} />
+              <SocialLink
+                key={d.title}
+                text={d.text}
+                imgSrc={d.imgSrc}
+                href={d.href}
+              />
             ))}
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }

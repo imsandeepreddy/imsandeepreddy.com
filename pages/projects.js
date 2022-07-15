@@ -1,12 +1,15 @@
-import siteMetadata from '@/data/siteMetadata'
-import projectsData from '@/data/projectsData'
-import Card from '@/components/Card'
-import { PageSeo } from '@/components/SEO'
+import siteMetadata from "@/data/siteMetadata";
+import projectsData from "@/data/projectsData";
+import Card from "@/components/Card";
+import { PageSeo } from "@/components/SEO";
 
 export default function Projects() {
   return (
     <>
-      <PageSeo title={`Projects - ${siteMetadata.author}`} description={siteMetadata.description} />
+      <PageSeo
+        title={`Projects - ${siteMetadata.author}`}
+        description={siteMetadata.description}
+      />
       <div className="divide-gray-3 divide-y">
         <div className="prose space-y-2 pt-6 pb-8 text-center dark:prose-dark md:space-y-5">
           <h1>Projects</h1>
@@ -26,5 +29,5 @@ export default function Projects() {
         </div>
       </div>
     </>
-  )
+  );
 }

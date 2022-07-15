@@ -1,27 +1,30 @@
-import Link from '@/components/Link'
-import { PageSeo } from '@/components/SEO'
-import Tag from '@/components/Tag'
-import siteMetadata from '@/data/siteMetadata'
-import { getAllFilesFrontMatter } from '@/lib/mdx'
-import formatDate from '@/lib/utils/formatDate'
-import Welcome from '@/components/Welcome'
-import Subscribe from '@/components/Subscribe'
-import Work from '@/components/Work'
-import Clients from '@/components/Clients'
-import { RoughNotation } from 'react-rough-notation'
+import Link from "@/components/Link";
+import { PageSeo } from "@/components/SEO";
+import Tag from "@/components/Tag";
+import siteMetadata from "@/data/siteMetadata";
+import { getAllFilesFrontMatter } from "@/lib/mdx";
+import formatDate from "@/lib/utils/formatDate";
+import Welcome from "@/components/Welcome";
+import Subscribe from "@/components/Subscribe";
+import Work from "@/components/Work";
+import Clients from "@/components/Clients";
+import { RoughNotation } from "react-rough-notation";
 
-const MAX_DISPLAY = 3
+const MAX_DISPLAY = 3;
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter('blog')
+  const posts = await getAllFilesFrontMatter("blog");
 
-  return { props: { posts } }
+  return { props: { posts } };
 }
 
 export default function Home({ posts }) {
   return (
     <>
-      <PageSeo title={siteMetadata.title} description={siteMetadata.description} />
+      <PageSeo
+        title={siteMetadata.title}
+        description={siteMetadata.description}
+      />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="prose space-y-2 pt-6 pb-6 dark:prose-dark md:space-y-5">
           <Welcome />
@@ -43,9 +46,9 @@ export default function Home({ posts }) {
           </h1>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-          {!posts.length && 'No posts found.'}
+          {!posts.length && "No posts found."}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-            const { slug, date, title, summary, tags } = frontMatter
+            const { slug, date, title, summary, tags } = frontMatter;
             return (
               <li key={slug} className="py-12">
                 <article>
@@ -74,7 +77,9 @@ export default function Home({ posts }) {
                             ))}
                           </div>
                         </div>
-                        <div className="prose max-w-none dark:prose-dark">{summary}</div>
+                        <div className="prose max-w-none dark:prose-dark">
+                          {summary}
+                        </div>
                       </div>
                       <div className="text-base font-medium uppercase leading-7">
                         <Link
@@ -89,7 +94,7 @@ export default function Home({ posts }) {
                   </div>
                 </article>
               </li>
-            )
+            );
           })}
         </ul>
       </div>
@@ -105,5 +110,5 @@ export default function Home({ posts }) {
         </div>
       )}
     </>
-  )
+  );
 }

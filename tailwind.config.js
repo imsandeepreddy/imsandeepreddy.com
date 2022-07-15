@@ -1,217 +1,217 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
-const colors = require('tailwindcss/colors')
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   experimental: {
     optimizeUniversalDefaults: true,
   },
   content: [
-    './pages/**/*.js',
-    './components/**/*.js',
-    './layouts/**/*.js',
-    './lib/**/*.js',
-    './data/**/*.mdx',
+    "./pages/**/*.js",
+    "./components/**/*.js",
+    "./layouts/**/*.js",
+    "./lib/**/*.js",
+    "./data/**/*.mdx",
   ],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
       spacing: {
-        '9/16': '56.25%',
+        "9/16": "56.25%",
       },
       lineHeight: {
-        11: '2.75rem',
-        12: '3rem',
-        13: '3.25rem',
-        14: '3.5rem',
+        11: "2.75rem",
+        12: "3rem",
+        13: "3.25rem",
+        14: "3.5rem",
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        serif: ['Lora', ...defaultTheme.fontFamily.serif],
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        serif: ["Lora", ...defaultTheme.fontFamily.serif],
       },
       colors: {
         primary: {
-          100: '#C5FDF1',
-          200: '#98F9E4',
-          300: '#70F2D6',
-          400: '#50E9C8',
-          500: '#38DDB9',
-          600: '#27CDA9',
-          700: '#1BB896',
-          800: '#13A081',
-          900: '#0E876D',
+          100: "#C5FDF1",
+          200: "#98F9E4",
+          300: "#70F2D6",
+          400: "#50E9C8",
+          500: "#38DDB9",
+          600: "#27CDA9",
+          700: "#1BB896",
+          800: "#13A081",
+          900: "#0E876D",
         },
         secondary: {
-          100: '#1b1e28',
+          100: "#1b1e28",
         },
         code: {
-          green: '#b5f4a5',
-          yellow: '#ffe484',
-          purple: '#d9a9ff',
-          red: '#ff8383',
-          blue: '#93ddfd',
-          white: '#fff',
+          green: "#b5f4a5",
+          yellow: "#ffe484",
+          purple: "#d9a9ff",
+          red: "#ff8383",
+          blue: "#93ddfd",
+          white: "#fff",
         },
       },
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            fontFamily: 'sans',
-            color: theme('colors.gray.600'),
-            fontSize: '1.125rem', // Tailwind lg
-            letterSpacing: theme('letterSpacing.tight'),
+            fontFamily: "sans",
+            color: theme("colors.gray.600"),
+            fontSize: "1.125rem", // Tailwind lg
+            letterSpacing: theme("letterSpacing.tight"),
             a: {
-              color: theme('colors.primary.700'),
-              textDecoration: 'none',
-              '&:hover': {
-                color: theme('colors.primary.900'),
+              color: theme("colors.primary.700"),
+              textDecoration: "none",
+              "&:hover": {
+                color: theme("colors.primary.900"),
               },
-              code: { color: theme('colors.primary.400') },
+              code: { color: theme("colors.primary.400") },
             },
             h1: {
-              fontWeight: '900', // TailwindTaiwlind black
-              fontFamily: 'serif',
-              fontSize: '2.25rem', // Taiwlind 4XL
-              lineHeight: '2.5rem', // Tailwind 4XL
-              letterSpacing: theme('letterSpacing.normal'),
-              color: theme('colors.gray.900'),
-              'margin-top': '1',
-              'margin-bottom': '1',
+              fontWeight: "900", // TailwindTaiwlind black
+              fontFamily: "serif",
+              fontSize: "2.25rem", // Taiwlind 4XL
+              lineHeight: "2.5rem", // Tailwind 4XL
+              letterSpacing: theme("letterSpacing.normal"),
+              color: theme("colors.gray.900"),
+              "margin-top": "1",
+              "margin-bottom": "1",
             },
             h2: {
-              fontWeight: '800',
-              fontFamily: 'serif',
-              fontSize: '1.875rem', // Taiwlind 3XL
-              lineHeight: '2.25rem', // Tailwind 3XL
-              letterSpacing: theme('letterSpacing.normal'),
-              color: theme('colors.gray.900'),
-              'margin-top': '0.5rem',
-              'margin-bottom': '0.5rem',
+              fontWeight: "800",
+              fontFamily: "serif",
+              fontSize: "1.875rem", // Taiwlind 3XL
+              lineHeight: "2.25rem", // Tailwind 3XL
+              letterSpacing: theme("letterSpacing.normal"),
+              color: theme("colors.gray.900"),
+              "margin-top": "0.5rem",
+              "margin-bottom": "0.5rem",
             },
             h3: {
-              fontFamily: 'serif',
-              fontWeight: '700',
-              fontSize: '1.5rem', // Taiwlind 2XL
-              lineHeight: '2rem', // Tailwind 2XL
-              letterSpacing: theme('letterSpacing.normal'),
-              color: theme('colors.gray.900'),
-              'margin-top': '0.5rem',
-              'margin-bottom': '0.5rem',
+              fontFamily: "serif",
+              fontWeight: "700",
+              fontSize: "1.5rem", // Taiwlind 2XL
+              lineHeight: "2rem", // Tailwind 2XL
+              letterSpacing: theme("letterSpacing.normal"),
+              color: theme("colors.gray.900"),
+              "margin-top": "0.5rem",
+              "margin-bottom": "0.5rem",
             },
-            'h4,h5,h6': {
-              fontFamily: 'serif',
-              fontSize: '1.25rem', // Taiwlind  XL
-              lineHeight: '1.75rem', // Tailwind  XL
-              letterSpacing: theme('letterSpacing.normal'),
-              color: theme('colors.gray.900'), // Tailwind XL
-              'margin-top': '0.5rem',
-              'margin-bottom': '0.5rem',
+            "h4,h5,h6": {
+              fontFamily: "serif",
+              fontSize: "1.25rem", // Taiwlind  XL
+              lineHeight: "1.75rem", // Tailwind  XL
+              letterSpacing: theme("letterSpacing.normal"),
+              color: theme("colors.gray.900"), // Tailwind XL
+              "margin-top": "0.5rem",
+              "margin-bottom": "0.5rem",
             },
             code: {
-              color: theme('colors.pink.500'),
-              backgroundColor: theme('colors.gray.100'),
-              paddingLeft: '4px',
-              paddingRight: '4px',
-              paddingTop: '2px',
-              paddingBottom: '2px',
-              borderRadius: '0.25rem',
+              color: theme("colors.pink.500"),
+              backgroundColor: theme("colors.gray.100"),
+              paddingLeft: "4px",
+              paddingRight: "4px",
+              paddingTop: "2px",
+              paddingBottom: "2px",
+              borderRadius: "0.25rem",
             },
-            'code:before': {
-              content: 'none',
+            "code:before": {
+              content: "none",
             },
-            'code:after': {
-              content: 'none',
+            "code:after": {
+              content: "none",
             },
-            hr: { borderColor: theme('colors.gray.200') },
-            'ol li:before': {
-              fontWeight: '600',
-              color: theme('colors.gray.500'),
+            hr: { borderColor: theme("colors.gray.200") },
+            "ol li:before": {
+              fontWeight: "600",
+              color: theme("colors.gray.500"),
             },
-            'ul li:before': {
-              backgroundColor: theme('colors.gray.500'),
+            "ul li:before": {
+              backgroundColor: theme("colors.gray.500"),
             },
-            strong: { color: theme('colors.gray.600') },
+            strong: { color: theme("colors.gray.600") },
             blockquote: {
-              color: theme('colors.gray.900'),
-              borderLeftColor: theme('colors.gray.200'),
+              color: theme("colors.gray.900"),
+              borderLeftColor: theme("colors.gray.200"),
             },
           },
         },
         dark: {
           css: {
-            color: theme('colors.gray.300'),
-            fontFamily: 'sans',
-            fontSize: '1.125rem', // Tailwind lg
-            letterSpacing: theme('letterSpacing.tight'),
+            color: theme("colors.gray.300"),
+            fontFamily: "sans",
+            fontSize: "1.125rem", // Tailwind lg
+            letterSpacing: theme("letterSpacing.tight"),
             a: {
-              color: theme('colors.primary.400'),
-              textDecoration: 'none',
-              '&:hover': {
-                color: theme('colors.primary.900'),
+              color: theme("colors.primary.400"),
+              textDecoration: "none",
+              "&:hover": {
+                color: theme("colors.primary.900"),
               },
-              code: { color: theme('colors.primary.400') },
+              code: { color: theme("colors.primary.400") },
             },
             h1: {
-              fontWeight: '900', // TailwindTaiwlind black
-              fontFamily: 'serif',
-              fontSize: '2.25rem', // Taiwlind 4XL
-              lineHeight: '2.5rem', // Tailwind 4XL
-              letterSpacing: theme('letterSpacing.normal'),
-              color: theme('colors.gray.100'),
-              'margin-top': '1',
-              'margin-bottom': '1',
+              fontWeight: "900", // TailwindTaiwlind black
+              fontFamily: "serif",
+              fontSize: "2.25rem", // Taiwlind 4XL
+              lineHeight: "2.5rem", // Tailwind 4XL
+              letterSpacing: theme("letterSpacing.normal"),
+              color: theme("colors.gray.100"),
+              "margin-top": "1",
+              "margin-bottom": "1",
             },
             h2: {
-              fontWeight: '800',
-              fontFamily: 'serif',
-              fontSize: '1.875rem', // Taiwlind 3XL
-              lineHeight: '2.25rem', // Tailwind 3XL
-              letterSpacing: theme('letterSpacing.normal'),
-              color: theme('colors.gray.100'),
-              'margin-top': '0.5rem',
-              'margin-bottom': '0.5rem',
+              fontWeight: "800",
+              fontFamily: "serif",
+              fontSize: "1.875rem", // Taiwlind 3XL
+              lineHeight: "2.25rem", // Tailwind 3XL
+              letterSpacing: theme("letterSpacing.normal"),
+              color: theme("colors.gray.100"),
+              "margin-top": "0.5rem",
+              "margin-bottom": "0.5rem",
             },
             h3: {
-              fontWeight: '700',
-              fontFamily: 'serif',
-              fontSize: '1.5rem', // Taiwlind 2XL
-              lineHeight: '2rem', // Tailwind 2XL
-              letterSpacing: theme('letterSpacing.normal'),
-              color: theme('colors.gray.100'),
-              'margin-top': '0.5rem',
-              'margin-bottom': '0.5rem',
+              fontWeight: "700",
+              fontFamily: "serif",
+              fontSize: "1.5rem", // Taiwlind 2XL
+              lineHeight: "2rem", // Tailwind 2XL
+              letterSpacing: theme("letterSpacing.normal"),
+              color: theme("colors.gray.100"),
+              "margin-top": "0.5rem",
+              "margin-bottom": "0.5rem",
             },
-            'h4,h5,h6': {
-              fontFamily: 'serif',
-              fontSize: '1.25rem', // Taiwlind  XL
-              lineHeight: '1.75rem', // Tailwind  XL
-              letterSpacing: theme('letterSpacing.normal'),
-              color: theme('colors.gray.100'),
-              'margin-top': '0.5rem',
-              'margin-bottom': '0.5rem',
+            "h4,h5,h6": {
+              fontFamily: "serif",
+              fontSize: "1.25rem", // Taiwlind  XL
+              lineHeight: "1.75rem", // Tailwind  XL
+              letterSpacing: theme("letterSpacing.normal"),
+              color: theme("colors.gray.100"),
+              "margin-top": "0.5rem",
+              "margin-bottom": "0.5rem",
             },
             code: {
-              backgroundColor: theme('colors.gray.800'),
+              backgroundColor: theme("colors.gray.800"),
             },
-            hr: { borderColor: theme('colors.gray.700') },
-            'ol li:before': {
-              fontWeight: '600',
-              color: theme('colors.gray.400'),
+            hr: { borderColor: theme("colors.gray.700") },
+            "ol li:before": {
+              fontWeight: "600",
+              color: theme("colors.gray.400"),
             },
-            'ul li:before': {
-              backgroundColor: theme('colors.gray.400'),
+            "ul li:before": {
+              backgroundColor: theme("colors.gray.400"),
             },
-            strong: { color: theme('colors.gray.100') },
+            strong: { color: theme("colors.gray.100") },
             thead: {
-              color: theme('colors.gray.100'),
+              color: theme("colors.gray.100"),
             },
             tbody: {
               tr: {
-                borderBottomColor: theme('colors.gray.700'),
+                borderBottomColor: theme("colors.gray.700"),
               },
             },
             blockquote: {
-              color: theme('colors.gray.100'),
-              borderLeftColor: theme('colors.gray.700'),
+              color: theme("colors.gray.100"),
+              borderLeftColor: theme("colors.gray.700"),
             },
           },
         },
@@ -220,9 +220,9 @@ module.exports = {
   },
   variants: {
     extend: {
-      display: ['dark'],
+      display: ["dark"],
     },
-    typography: ['dark'],
+    typography: ["dark"],
   },
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
-}
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
+};

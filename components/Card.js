@@ -1,7 +1,6 @@
-import Link from './Link'
+import Link from "./Link";
 
 const Card = ({ title, description, imgSrc, href }) => (
-  // TODO - add a link to the card
   <div className="mt-1 mb-1 rounded-md border border-gray-300 hover:border-dotted	 dark:border-gray-600">
     <div className="flex flex-row overflow-hidden ">
       <div className="p-6">
@@ -27,9 +26,9 @@ const Card = ({ title, description, imgSrc, href }) => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Card
+export default Card;
 
 // /* CARD START */
 // const newCard = ({ title, description, imgSrc, href }) => (
