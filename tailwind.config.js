@@ -26,7 +26,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Inter"],
-        Lora: ["Lora"],
+        serif: ["Lora"],
       },
       colors: {
         primary: {
