@@ -1,8 +1,8 @@
 ---
 name: Kirill So
-avatar: /static/img/avatar.jpeg
-occupation: Head of Product
-company: Ringl Technologies
+avatar: /static/img/avatar.png
+occupation: Sr. Product Manager
+company: Delivery Hero
 email: kirill@kirill.digital
 twitter: https://twitter.com/sokirill
 linkedin: https://www.linkedin.com/in/kirso
@@ -51,4 +51,4 @@ My passion is never-ending search for knowledge, learning and leading an examine
 
 This websites serves as my playground for for experimenting with ideas, products, thoughts and figuring out how the world works.
 
-[My DMs are always opened](https://www.twitter.com/SoKirill), alternatively you can [book a call](https://cal.com/sokirill) with me or subscibe to my essays.
+[My DMs are always opened](https://www.twitter.com/SoKirill), alternatively you can [book a call](https://cal.com/kirso) with me or subscibe to my essays.

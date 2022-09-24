@@ -1,29 +1,38 @@
 import Link from "./Link";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Card = ({ title, description, imgSrc, href }) => (
-  <div className="mt-1 mb-1 rounded-md border border-gray-300 hover:border-dotted	 dark:border-gray-600">
-    <div className="flex flex-row overflow-hidden ">
-      <div className="p-6">
-        <h2 className="mb-3 font-serif text-3xl font-bold hover:text-primary-500">
-          {href ? (
-            <Link href={href} aria-label={`Link to ${title}`}>
-              {title}
-            </Link>
-          ) : (
-            title
-          )}
-        </h2>
-        <p className="prose mb-3 max-w-none dark:prose-dark">{description}</p>
-        {href && (
-          <Link
-            href={href}
-            className="text-lg font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label={`Link to ${title}`}
-          >
-            Learn more &rarr;
-          </Link>
-        )}
-      </div>
+  <div className="mt-1 mb-1 flex flex-auto place-items-center rounded-md border border-gray-300 hover:border-dotted dark:border-gray-600 hover:dark:border-primary-400">
+    <div className="flex flex-row p-6">
+      <Link
+        href={href}
+        aria-label={`Link to ${title}`}
+        className="rounded-md border border-gray-300 dark:border-gray-600"
+      >
+        <Image
+          alt={title}
+          src={imgSrc}
+          layout="fixed"
+          width={250}
+          height={150}
+        />
+      </Link>
+    </div>
+    <div className="">
+      <h2 className="mb-3 font-serif text-3xl font-bold hover:text-primary-600 hover:dark:text-primary-400 ">
+        <Link href={href} aria-label={`Link to ${title}`}>
+          {title}
+        </Link>
+      </h2>
+      <p className="prose mb-3 max-w-none dark:prose-dark">{description}</p>
+      <Link
+        href={href}
+        className="text-lg font-medium leading-6 text-primary-700 hover:text-primary-900 dark:text-primary-400 hover:dark:text-primary-900"
+        aria-label={`Link to ${title}`}
+      >
+        Learn more &rarr;
+      </Link>
     </div>
   </div>
 );

@@ -1,18 +1,18 @@
 ---
 title: On workaholism
-date: '2022-01-30'
-tags: ['life', 'work', 'career']
+date: "2022-01-30"
+tags: ["life", "work", "career"]
 draft: true
-summary: ''
-author: 'default'
-images: ['/static/img/blog/workaholism/test.png']
+summary: ""
+author: "default"
+images: ["/static/img/blog/workaholism/test.png"]
 ---
 
 ## Intro
 
 https://www.reddit.com/r/fatFIRE/comments/ogol3u/was_sacrificing_1015_years_of_life_a_mistake/h4kgv9m?utm_source=share&utm_medium=web2x&context=3
 
-> This kind of thing pops up on here from time to time and I can identify because I was a workaholic too. The problem with being a workaholic is that we use WORK as our escape. We convince ourselves we're pursuing some great cause and that it's worth sacrificing everything for it. That we refuse to settle for mediocrity and are determined to win where others usually fail. But deep down, it's really just a way to isolate ourselves and distract ourselves from the underlying issues. Reading your post I was waiting for the social anxiety mention, and boom there it is.
+This kind of thing pops up on here from time to time and I can identify because I was a workaholic too. The problem with being a workaholic is that we use WORK as our escape. We convince ourselves we're pursuing some great cause and that it's worth sacrificing everything for it. That we refuse to settle for mediocrity and are determined to win where others usually fail. But deep down, it's really just a way to isolate ourselves and distract ourselves from the underlying issues. Reading your post I was waiting for the social anxiety mention, and boom there it is.
 
 See, "working" is the perfect excuse to avoid anything that makes you uncomfortable. You can get out of any social event by saying you need to work. You can break off a relationship because you "don't have the time." It totally shields you from rejection because how could you be a failure if you're crushing it with a stacked bank account and the material items to go with it. And now I think you're realizing that winning didn't leave you more fulfilled. If anything, you're now more keenly aware of your lack of fulfillment.
 

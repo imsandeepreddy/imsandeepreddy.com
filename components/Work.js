@@ -22,27 +22,39 @@ export default function Work() {
         <div className="margin:0 grid gap-10 text-center md:grid-cols-2 lg:grid-cols-3">
           <div>
             <h2 className="mb-0">Discovery</h2>
-            <p>Validation and hypothesis testing via rapid experiments</p>
+            <p>Continuous customer feedback and user research practices</p>
           </div>
           <div>
-            <h2>Product</h2>
-            <p>Planning, orchestration and execution of product strategy</p>
+            <h2>Experimentation</h2>
+            <p>
+              Design and orchestration of experiments to conduct hypothesis
+              testing
+            </p>
           </div>
           <div>
             <h2>Growth</h2>
-            <p>Acquisition, activation, retention and LTV boost of customers</p>
+            <p>
+              Iterative and data-driven approach to acquisition, retention and
+              revenue.
+            </p>
           </div>
           <div>
-            <h2>Go-to-market</h2>
-            <p>Product launch and extension to target customers and geos</p>
+            <h2>Product</h2>
+            <p>
+              Working with engineering teams on solutioning and delivery of
+              products
+            </p>
           </div>
           <div>
             <h2>Automation</h2>
-            <p>Automation of workflows for tedious and repeatable tasks</p>
+            <p>
+              Workflows & automation of tedious tasks with APIs, scripts and
+              no-code tools
+            </p>
           </div>
           <div>
             <h2>MVP</h2>
-            <p>Scoping, creation and deployment of lean prototypes</p>
+            <p>Building lean and rapid prototypes to validate ideas </p>
           </div>
         </div>
       </div>

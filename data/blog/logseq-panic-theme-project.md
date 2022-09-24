@@ -1,22 +1,22 @@
 ---
 title: Logseq Panic Theme
-date: '2021-01-02'
-tags: ['project', 'dev', 'css']
+date: "2021-01-02"
+tags: ["project", "dev", "css"]
 draft: true
-summary: 'A dark theme for Logseq, inspired by Panics palette and Bear notes panic mode theme.'
-author: 'default'
-images: ['/static/img/projects/logseq-project-thumbnail.png']
+summary: "A dark theme for Logseq, inspired by Panics palette and Bear notes panic mode theme."
+author: "default"
+images: ["/static/img/projects/logseq-project-thumbnail.png"]
 ---
 
 ## Description
 
-This theme uses basic `CSS`, `Mulish` font family hosted by Google and hosted on `JSdelivr`.
+This theme uses basic `CSS`, `Mulish` font family and hosted on `JSdelivr`.
 
 [Github repo link](https://github.com/kirso/logseq-panic-theme)
 
 ## How I worked on this project
 
-I created this theme to adjust the cosmetics of Logseq to my liking and I always loved panic mode theme in Bear notes app. to expand on the data fetching skills and learn a bit more on possibilities of Next.js especially in combination with utility design framework such as Tailwind.
+I created this theme to adjust the cosmetics of Logseq to my liking and as I always loved panic mode theme in Bear notes app, I implemented the same color scheme in it.
 
 ## How to navigate this project
 
@@ -27,11 +27,4 @@ I created this theme to adjust the cosmetics of Logseq to my liking and I always
 
 ## Why it is built this way
 
-- State management is not used with this project as its a simple app mainly to test out API fetch, render and styling.
-
 ## What else would I do
-
-- The theme is work in progress and people are already submitting feature requests
-- Increase the legibility
-- Setup CI/CD and ESLint on every pull request
-- [x] Add a dark mode
