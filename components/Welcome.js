@@ -26,11 +26,11 @@ export default function Welcome() {
         <h2>Hey, I am Kirill</h2>
 
         <p>
-          I am a product manager and indie-maker based in Singapore. I enjoy
-          working on side projects as well as learning software development and
-          design. In my free time I write essays on calm life, exploration,
-          experiments and making sense of the world. My
-          <a href="https://twitter.com/sokirill"> DMs</a> always opened.
+          I am a product manager and indie-maker based in Singapore. In my free
+          time, I enjoy working on side projects and learning software
+          development and design. Occasionally, I write essays on calm life,
+          exploration, experiments and making sense of the world. My
+          <a href="https://twitter.com/sokirill"> DMs</a> always open.
         </p>
       </div>
     </div>
