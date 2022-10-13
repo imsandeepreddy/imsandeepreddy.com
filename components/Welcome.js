@@ -5,7 +5,6 @@ import { RoughNotation } from "react-rough-notation";
 import Link from "next/link";
 
 export default function Welcome() {
-  // previously had <> </> but that was causing a warning
   return (
     <div className="mb-10 items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
       <div className="flex flex-col items-center space-x-2 pt-8">
@@ -26,11 +25,11 @@ export default function Welcome() {
         <h2>Hey, I am Kirill</h2>
 
         <p>
-          I am a product manager and indie-maker based in Singapore. In my free
-          time, I enjoy working on side projects and learning software
-          development and design. Occasionally, I write essays on calm life,
-          exploration, experiments and making sense of the world. My
-          <a href="https://twitter.com/sokirill"> DMs</a> always open.
+          I am a PM and indie-maker based in Singapore. Love to tinker with side
+          projects whilst self-teaching software development and design.
+          Occasionally, I write essays on calm life, exploration, experiments
+          and making sense of the world. My{" "}
+          <a href="https://twitter.com/sokirill"> DMs</a>are always open.
         </p>
       </div>
     </div>
