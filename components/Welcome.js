@@ -29,7 +29,7 @@ export default function Welcome() {
           projects whilst self-teaching software development and design.
           Occasionally, I write essays on calm life, exploration, experiments
           and making sense of the world. My{" "}
-          <a href="https://twitter.com/sokirill"> DMs</a>are always open.
+          <a href="https://twitter.com/sokirill"> DMs</a> are always open.
         </p>
       </div>
     </div>
