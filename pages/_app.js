@@ -23,14 +23,16 @@ export default function App({ Component, pageProps }) {
     };
   }, [router.events]);
   return (
-    <ThemeProvider attribute="class">
-      <Head>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-      </Head>
-      <LayoutWrapper>
-        <Component {...pageProps} />
-        <Analytics />
-      </LayoutWrapper>
-    </ThemeProvider>
+    <>
+      <Analytics />
+      <ThemeProvider attribute="class">
+        <Head>
+          <meta content="width=device-width, initial-scale=1" name="viewport" />
+        </Head>
+        <LayoutWrapper>
+          <Component {...pageProps} />
+        </LayoutWrapper>
+      </ThemeProvider>
+    </>
   );
 }
